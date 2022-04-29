@@ -1,0 +1,15 @@
+C:\Users\atell\source\repos\Exercicio_2\bin\Debug\net6.0\Exercicio_2.exe
+C:\Users\atell\source\repos\Exercicio_2\bin\Debug\net6.0\Exercicio_2.deps.json
+C:\Users\atell\source\repos\Exercicio_2\bin\Debug\net6.0\Exercicio_2.runtimeconfig.json
+C:\Users\atell\source\repos\Exercicio_2\bin\Debug\net6.0\Exercicio_2.dll
+C:\Users\atell\source\repos\Exercicio_2\bin\Debug\net6.0\Exercicio_2.pdb
+C:\Users\atell\source\repos\Exercicio_2\obj\Debug\net6.0\Exercicio_2.csproj.AssemblyReference.cache
+C:\Users\atell\source\repos\Exercicio_2\obj\Debug\net6.0\Exercicio_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\source\repos\Exercicio_2\obj\Debug\net6.0\Exercicio_2.AssemblyInfoInputs.cache
+C:\Users\atell\source\repos\Exercicio_2\obj\Debug\net6.0\Exercicio_2.AssemblyInfo.cs
+C:\Users\atell\source\repos\Exercicio_2\obj\Debug\net6.0\Exercicio_2.csproj.CoreCompileInputs.cache
+C:\Users\atell\source\repos\Exercicio_2\obj\Debug\net6.0\Exercicio_2.dll
+C:\Users\atell\source\repos\Exercicio_2\obj\Debug\net6.0\refint\Exercicio_2.dll
+C:\Users\atell\source\repos\Exercicio_2\obj\Debug\net6.0\Exercicio_2.pdb
+C:\Users\atell\source\repos\Exercicio_2\obj\Debug\net6.0\Exercicio_2.genruntimeconfig.cache
+C:\Users\atell\source\repos\Exercicio_2\obj\Debug\net6.0\ref\Exercicio_2.dll

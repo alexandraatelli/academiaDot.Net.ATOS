@@ -1,0 +1,30 @@
+C:\Users\atell\source\repos\Exercicio_3\bin\Debug\net6.0\Exercicio_3.exe
+C:\Users\atell\source\repos\Exercicio_3\bin\Debug\net6.0\Exercicio_3.deps.json
+C:\Users\atell\source\repos\Exercicio_3\bin\Debug\net6.0\Exercicio_3.runtimeconfig.json
+C:\Users\atell\source\repos\Exercicio_3\bin\Debug\net6.0\Exercicio_3.dll
+C:\Users\atell\source\repos\Exercicio_3\bin\Debug\net6.0\Exercicio_3.pdb
+C:\Users\atell\source\repos\Exercicio_3\obj\Debug\net6.0\Exercicio_3.csproj.AssemblyReference.cache
+C:\Users\atell\source\repos\Exercicio_3\obj\Debug\net6.0\Exercicio_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\source\repos\Exercicio_3\obj\Debug\net6.0\Exercicio_3.AssemblyInfoInputs.cache
+C:\Users\atell\source\repos\Exercicio_3\obj\Debug\net6.0\Exercicio_3.AssemblyInfo.cs
+C:\Users\atell\source\repos\Exercicio_3\obj\Debug\net6.0\Exercicio_3.csproj.CoreCompileInputs.cache
+C:\Users\atell\source\repos\Exercicio_3\obj\Debug\net6.0\Exercicio_3.dll
+C:\Users\atell\source\repos\Exercicio_3\obj\Debug\net6.0\refint\Exercicio_3.dll
+C:\Users\atell\source\repos\Exercicio_3\obj\Debug\net6.0\Exercicio_3.pdb
+C:\Users\atell\source\repos\Exercicio_3\obj\Debug\net6.0\Exercicio_3.genruntimeconfig.cache
+C:\Users\atell\source\repos\Exercicio_3\obj\Debug\net6.0\ref\Exercicio_3.dll
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\bin\Debug\net6.0\Exercicio_3.exe
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\bin\Debug\net6.0\Exercicio_3.deps.json
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\bin\Debug\net6.0\Exercicio_3.runtimeconfig.json
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\bin\Debug\net6.0\Exercicio_3.dll
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\bin\Debug\net6.0\Exercicio_3.pdb
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\obj\Debug\net6.0\Exercicio_3.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\obj\Debug\net6.0\Exercicio_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\obj\Debug\net6.0\Exercicio_3.AssemblyInfoInputs.cache
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\obj\Debug\net6.0\Exercicio_3.AssemblyInfo.cs
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\obj\Debug\net6.0\Exercicio_3.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\obj\Debug\net6.0\Exercicio_3.dll
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\obj\Debug\net6.0\refint\Exercicio_3.dll
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\obj\Debug\net6.0\Exercicio_3.pdb
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\obj\Debug\net6.0\Exercicio_3.genruntimeconfig.cache
+C:\Users\atell\Desktop\Cursos e Certificações diversos\Atos\GitHubAlexandra\Exerc Atos em execução\exercicios academia.net\Exercicio_3\obj\Debug\net6.0\ref\Exercicio_3.dll
