@@ -1,0 +1,10 @@
+bin
+venv
+.exe
+.o
+.obj
+caixa
+.sh
+.idéia
+.DS_Store
+vccode
