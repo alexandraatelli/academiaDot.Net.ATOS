@@ -126,4 +126,6 @@ data = (Console.ReadLine());
     {
         Console.WriteLine("A data digitada é: " + data.Substring(6, 4) + data.Substring(3, 2) + data.Substring(0, 2));
         Console.WriteLine("A data digitada é: " + data.Substring(8, 2) + data.Substring(3, 2) + data.Substring(0, 2));
-    }
+     }
+
+// Consultado documentação oficial Microsoft
