@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\atell\\Desktop\\Cursos e Certificações diversos\\Atos\\Git e VSCode\\atos_repos_exerc_Cs\\repos\\Exercicio_1\\Exercicio_1.csproj": {}
+    "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex001.cs\\Exercicio_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\atell\\Desktop\\Cursos e Certificações diversos\\Atos\\Git e VSCode\\atos_repos_exerc_Cs\\repos\\Exercicio_1\\Exercicio_1.csproj": {
+    "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex001.cs\\Exercicio_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atell\\Desktop\\Cursos e Certificações diversos\\Atos\\Git e VSCode\\atos_repos_exerc_Cs\\repos\\Exercicio_1\\Exercicio_1.csproj",
+        "projectUniqueName": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex001.cs\\Exercicio_1.csproj",
         "projectName": "Exercicio_1",
-        "projectPath": "C:\\Users\\atell\\Desktop\\Cursos e Certificações diversos\\Atos\\Git e VSCode\\atos_repos_exerc_Cs\\repos\\Exercicio_1\\Exercicio_1.csproj",
+        "projectPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex001.cs\\Exercicio_1.csproj",
         "packagesPath": "C:\\Users\\atell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atell\\Desktop\\Cursos e Certificações diversos\\Atos\\Git e VSCode\\atos_repos_exerc_Cs\\repos\\Exercicio_1\\obj\\",
+        "outputPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex001.cs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\atell\\AppData\\Roaming\\NuGet\\NuGet.Config",

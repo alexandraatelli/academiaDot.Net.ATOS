@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\atell\\Desktop\\Cursos e Certificações diversos\\Atos\\GitHubAlexandra\\Exerc Atos em execução\\exercicios academia.net\\Exercicio_2\\Exercicio_2.csproj",
+      "projectUniqueName": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex002.cs\\Exercicio_2.csproj",
       "projectName": "Exercicio_2",
-      "projectPath": "C:\\Users\\atell\\Desktop\\Cursos e Certificações diversos\\Atos\\GitHubAlexandra\\Exerc Atos em execução\\exercicios academia.net\\Exercicio_2\\Exercicio_2.csproj",
+      "projectPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex002.cs\\Exercicio_2.csproj",
       "packagesPath": "C:\\Users\\atell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\atell\\Desktop\\Cursos e Certificações diversos\\Atos\\GitHubAlexandra\\Exerc Atos em execução\\exercicios academia.net\\Exercicio_2\\obj\\",
+      "outputPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex002.cs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\atell\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,16 +1,35 @@
 ﻿Console.WriteLine("Escreva um programa em C# e no Visual Studio para calcular a média aritmética entre dois números quaisquer.");
-// O tipo float foi utilizado pois não se sabe o que o usuário pode digitar, se, número inteiro ou decimal por exemplo.
 
-float numero1;
+// O tipo float foi utilizado pois não se sabe o que o usuário pode digitar, se, numero inteiro ou decimal por exemplo.
+
+// Tudo é objeto no C# - https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/
+// Você tem um objeto "float" quqe trabalha com valores com casa decimal, que é o float.
+
+
+float numero1; 
 float numero2;
-float media_aritmetica;
+float mediaAritmetica;
 
-Console.Write("Digite um número qualquer: ");
-numero1 = float.Parse(Console.ReadLine());
 
-Console.Write("Digite um segundo número qualquer: ");
+Console.Clear(); // Limpa a tela para execução fora da IDE.
+
+Console.WriteLine("Digite um número qualquer: ");
+numero1 = float.Parse(Console.ReadLine()); // "float" é objeto e o "Parse" é o método que é equivalente a uma função. 
+                                           // "Função é um conjunto de instruções com entradas e uma saída, pois pode ter
+                                           // vários parâmetros de entrada.
+
+Console.WriteLine("Digite um segundo número qualquer: ");
 numero2 = float.Parse(Console.ReadLine());
 
-media_aritmetica = (numero1 + numero2) / 2;
+mediaAritmetica = (numero1 + numero2) / 2;
 
-Console.WriteLine("A média aritmética dos valores é de: " + media_aritmetica);
+Console.WriteLine("A média aritmética dos valores é de: " + mediaAritmetica);
+
+// Nota: Qualquer operação que tiver como origem o Console.ReadLine que não for string, deve-se convertê-la ao tipo apropriado:
+// int, float, data....
+
+
+
+Console.WriteLine("\nA média aritmética dos valores é de: " + (numero1 + numero2) / 2 + " (sem variável de resultado)"); 
+
+
