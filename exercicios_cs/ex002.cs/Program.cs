@@ -1,29 +1,25 @@
-﻿CConsole.WriteLine("Exercício 3: Escreva a seqüência de atribuições, em forma de programa em C# e no Visual Studio, \n" +
-    "para trocar entre si os valores de duas variáveis A e B");
+﻿Console.WriteLine("Escreva um programa em C# e no Visual Studio para calcular a média aritmética entre quatro números quaisquer.");
 
-// Optamos por uma variável do tipo string, tendo em vista que o usuário poderia digitar qualquer letra ou número,
-// uma vez que o resultado seria o mesmo, ou seja, a troca dos valores das duas variáveis entre sí.
-// Também poderiamos realizá-lo com outro tipo de variável, como o int ou float, desta forma, no Console.Write
-// estariamos solicitado exatamente: "Digite um número qualquer" e não uma frase, por exemplo.
+// Utilizado float uma vez que, a digitação do número é cargo do usuário, o que poderia ser números inteiros ou decimais por exemplo.
 
-// Oservação: a utilização da "variável tmp" fez a ponte para troca das duas variáveis, conforme enunciado do exercício.
+float numero1;
+float numero2;
+float numero3;
+float numero4;
+float media_aritimetica;
 
+Console.WriteLine("Informe o primeiro número: ");
+numero1 = float.Parse(Console.ReadLine());
 
-Console.Clean();
+Console.WriteLine("Informe o segundo número: ");
+numero2 = float.Parse(Console.ReadLine());
 
-Console.WriteLine("Processo de troca de valores entre duas variáveis");
+Console.WriteLine("Informe o terceiro número: ");
+numero3 = float.Parse(Console.ReadLine());
 
-Console.Write("\nDigite uma frase qualquer: ");
-string variavel1 = Console.ReadLine();
+Console.WriteLine("Informe o quarto número: ");
+numero4 = float.Parse(Console.ReadLine());
 
-Console.Write("\nDigite outra frase qualquer: ");
-string variavel2 = Console.ReadLine();
+media_aritimetica = (numero1 + numero2 + numero3 + numero4) / 4;
 
-string tmp = variavel1;
-variavel1 = variavel2;
-variavel2 = tmp;
-
-Console.WriteLine("O conteúdo da variavel1 é: " + variavel1);
-Console.WriteLine("O conteúdo da variavel2 é: " + variavel2);
-
-
+Console.WriteLine("A média dos 4 valores é: " + media_aritimetica);
