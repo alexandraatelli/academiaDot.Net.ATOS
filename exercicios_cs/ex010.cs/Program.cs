@@ -49,46 +49,45 @@ resto = resto % 2;
     {
         Console.WriteLine("Valor inválido de acordo com as notas disponíveis no Caixa Eletrônico!");
     }
-    else 
+    else
     {
 
-        if (nota200 > 0)
-        {
-            Console.WriteLine(nota200 + " Nota de 200 reais ");
-        }
+            if (nota200 > 0)
+            {
+                Console.WriteLine(nota200 + " Nota de 200 reais ");
+            }
 
-        if (nota100 > 0)
-        {
-            Console.WriteLine(nota100 + " Nota de 100 reais ");
-        }
+                if (nota100 > 0)
+                {
+                    Console.WriteLine(nota100 + " Nota de 100 reais ");
+                }
 
-        if (nota50 > 0)
-        {
-            Console.WriteLine(nota50 + " Nota de 50 reais ");
-        }
+                    if (nota50 > 0)
+                    {
+                        Console.WriteLine(nota50 + " Nota de 50 reais ");
+                    }
 
-        if (nota20 > 0)
-        {
-            Console.WriteLine(nota20 + " Nota de 20 reais ");
-        }
+                        if (nota20 > 0)
+                        {
+                            Console.WriteLine(nota20 + " Nota de 20 reais ");
+                        }
 
-        if (nota10 > 0)
-        {
-            Console.WriteLine(nota10 + " Nota de 10 reais ");
-        }
+                            if (nota10 > 0)
+                            {
+                                Console.WriteLine(nota10 + " Nota de 10 reais ");
+                            }
 
-        if (nota5 > 0)
-        {
-            Console.WriteLine(nota5 + " Nota de 5 reais ");
-        }
+                                if (nota5 > 0)
+                                {
+                                    Console.WriteLine(nota5 + " Nota de 5 reais ");
+                                }
 
-        if (nota2 > 0)
-        {
-            Console.WriteLine(nota2 + " Nota de 2 reais ");
-        }
-}
+                                    if (nota2 > 0)
+                                    {
+                                        Console.WriteLine(nota2 + " Nota de 2 reais ");
+                                    }
+    }
 
 
 // As variáveis de quantidade notas foram definidas para: facilitar a seleção de notas a serem fornecidas ao cliente.
 // As notas só serão exibidas após a confirmação de que: é possível a divisão do valor solicitado pelos tipos de nota, situação onde a variável resto for igual a 0 (zero).
-

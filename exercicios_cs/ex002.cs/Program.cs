@@ -6,7 +6,7 @@ float numero1;
 float numero2;
 float numero3;
 float numero4;
-float media_aritimetica;
+//float media_aritimetica;
 
 Console.WriteLine("Informe o primeiro número: ");
 numero1 = float.Parse(Console.ReadLine());
@@ -20,6 +20,8 @@ numero3 = float.Parse(Console.ReadLine());
 Console.WriteLine("Informe o quarto número: ");
 numero4 = float.Parse(Console.ReadLine());
 
-media_aritimetica = (numero1 + numero2 + numero3 + numero4) / 4;
+Console.WriteLine("A média aritmética dos 4 valores é: " + ((numero1 + numero2 + numero3 + numero4) / 4));
 
-Console.WriteLine("A média dos 4 valores é: " + media_aritimetica);
+//media_aritimetica = (numero1 + numero2 + numero3 + numero4) / 4;
+
+// Console.WriteLine("A média dos 4 valores é: " + media_aritimetica);

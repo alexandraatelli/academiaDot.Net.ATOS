@@ -5,22 +5,24 @@
 //Esse exercício também poderia ter sido realizado com o tipo int ou float, realizando as conversões necessárias.
 // Outra observação é a utilização da "string tmp" como ponte para troca das duas variáveis, de acordo enunciado do exercício.
 
+string variavelA;
+string variavelB;
 
 Console.Clear();
 
-Console.WriteLine("Processo de troca de valores entre duas variáveis");
-
+Console.WriteLine("\nProcesso de troca de valores entre duas variáveis\n");
 
 Console.Write("\nDigite uma frase qualquer: ");
-string variavelA = Console.ReadLine();
+variavelA = Console.ReadLine();
 
 Console.Write("\nDigite outra frase qualquer: ");
-string variavelB = Console.ReadLine();
+variavelB = Console.ReadLine();
 
 string tmp = variavelA;
 variavelA = variavelB;
 variavelB = tmp;
 
-Console.WriteLine("\nO conteúdo da variavelA é: " + variavelA);
-Console.WriteLine("\nO conteúdo da variavelB é: " + variavelB);
+Console.Write("\nO conteúdo da variavelA é: " + variavelA);
+Console.Write("\nO conteúdo da variavelB é: " + variavelB + "\n");
+
 

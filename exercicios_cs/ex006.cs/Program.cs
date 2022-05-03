@@ -18,7 +18,7 @@ codParafA = Console.ReadLine();
 Console.Write("\nDigite a quantidade do Parafuso A: ");
 quantParafA = int.Parse(Console.ReadLine());
 
-Console.Write("\nDigite o valor unitário do Parafuso A: ");
+Console.Write("\nDigite o valor unitário do Parafuso A: R$ ");
 valorUnitParafA = float.Parse(Console.ReadLine());
 
 
@@ -29,7 +29,7 @@ codParafB = Console.ReadLine();
 Console.Write("\nDigite a quantidade do Parafuso B: ");
 quantParafB = int.Parse(Console.ReadLine());
 
-Console.Write("\nDigite o valor unitário do Parafuso B: ");
+Console.Write("\nDigite o valor unitário do Parafuso B: R$ ");
 valorUnitParafB = float.Parse(Console.ReadLine());
 
 
@@ -40,6 +40,7 @@ porcentIPI = float.Parse(Console.ReadLine());
 
 
 Console.WriteLine("\nO custo total do parafuso A para " + quantParafA + " unidades é de: R$ " + ((quantParafA * valorUnitParafA) * (1 + (porcentIPI / 100))) + " reais, já incluso a aliquota do IPI de " + porcentIPI + " %.");
+
 
 Console.WriteLine("\nO custo total do parafuso B para " + quantParafB + " unidades é de: R$ " + ((quantParafB * valorUnitParafB) * (1 + (porcentIPI / 100))) + " reais, já incluso a aliquota do IPI de " + porcentIPI + " %. ");
 

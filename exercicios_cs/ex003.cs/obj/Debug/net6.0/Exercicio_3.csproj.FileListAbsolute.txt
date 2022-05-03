@@ -43,3 +43,18 @@ C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\ex003
 C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\ex003.cs\bin\Debug\net6.0\Exercicio_3.pdb
 C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\ex003.cs\obj\Debug\net6.0\Exercicio_3.genruntimeconfig.cache
 C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\ex003.cs\obj\Debug\net6.0\ref\Exercicio_3.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\bin\Debug\net6.0\Exercicio_3.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\bin\Debug\net6.0\Exercicio_3.deps.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\bin\Debug\net6.0\Exercicio_3.runtimeconfig.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\bin\Debug\net6.0\Exercicio_3.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\bin\Debug\net6.0\Exercicio_3.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\obj\Debug\net6.0\Exercicio_3.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\obj\Debug\net6.0\Exercicio_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\obj\Debug\net6.0\Exercicio_3.AssemblyInfoInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\obj\Debug\net6.0\Exercicio_3.AssemblyInfo.cs
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\obj\Debug\net6.0\Exercicio_3.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\obj\Debug\net6.0\Exercicio_3.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\obj\Debug\net6.0\refint\Exercicio_3.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\obj\Debug\net6.0\Exercicio_3.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\obj\Debug\net6.0\Exercicio_3.genruntimeconfig.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\ex003.cs\obj\Debug\net6.0\ref\Exercicio_3.dll

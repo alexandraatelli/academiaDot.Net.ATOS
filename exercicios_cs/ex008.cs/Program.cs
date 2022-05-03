@@ -12,6 +12,5 @@ tempCeusius = float.Parse(Console.ReadLine());
 
 Console.Clear();
 
-Console.Write("\nTemperatura em Fahrenheit é: " + (((tempCeusius * 9) / 5) + 32) + "\n");
+Console.Write("\nTemperatura em Fahrenheit é: " + ((((tempCeusius * 9) / 5) + 32).ToString("f")) + "\n");
 
-// 

@@ -63,7 +63,7 @@ else
 
 
 
-Console.WriteLine("\nInicio de outro modo de implementação para se chegar ao resultado do exercício proposto:");
+Console.WriteLine("\nInicio de OUTRO MODO de implementação para se chegar ao resultado do exercício proposto:");
 //RESSALTA-SE que não fiz uma simplificação (boa prática) de entendimento de código para treino, ex: string dia = data.Substring(0, 2)
 
 string data; // Escolhemos a string para ter uma única entrada e para a facilidade de compreensão do usuário.

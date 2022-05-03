@@ -23,7 +23,7 @@ percentualVendas = float.Parse(Console.ReadLine());
 
 
 
-Console.WriteLine("\nO vendedor código: " + codigoVendedor + " receberá o salário total no valor de: R$ " + (((1 + (percentualVendas / 100) * totalVendas) + salarioFixo).ToString("00000.00")) + " reais.");
+Console.WriteLine("\nO vendedor código: " + codigoVendedor + " receberá o salário total no valor de: R$ " + (((1 + (percentualVendas / 100) * totalVendas) + salarioFixo).ToString("f")) + " reais.");
 
 
 

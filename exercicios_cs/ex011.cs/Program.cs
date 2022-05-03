@@ -38,7 +38,3 @@ else
 
 // Nota: Embora tenha sido solicitado no exercício a entrada pelo usuário de todos os tipos de votos (válidos, branco e nulos), além do total de eleitores, optamos por computar o total de votos válidos de forma dedutiva, ou seja, não teve a inclusão do valor pelo usuário, o que traz inclusive mais segurança.
 
-
-
-
-

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex003.cs\\Exercicio_3.csproj": {}
+    "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\Exerc Atos em execução\\ex003.cs\\Exercicio_3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex003.cs\\Exercicio_3.csproj": {
+    "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\Exerc Atos em execução\\ex003.cs\\Exercicio_3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex003.cs\\Exercicio_3.csproj",
+        "projectUniqueName": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\Exerc Atos em execução\\ex003.cs\\Exercicio_3.csproj",
         "projectName": "Exercicio_3",
-        "projectPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex003.cs\\Exercicio_3.csproj",
+        "projectPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\Exerc Atos em execução\\ex003.cs\\Exercicio_3.csproj",
         "packagesPath": "C:\\Users\\atell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\ex003.cs\\obj\\",
+        "outputPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\Exerc Atos em execução\\ex003.cs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\atell\\AppData\\Roaming\\NuGet\\NuGet.Config",
