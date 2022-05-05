@@ -2,7 +2,7 @@
 Console.WriteLine("Escreva um algoritmo para ler o número de eleitores de um município, o número de votos brancos, nulos e válidos. Calcule e escreva o percentual que cada um representa em relação ao total de eleitores.");
 
 int totEleitores;
-int votosValidos;
+int votosValidos; //computado de forma dedutiva
 int votosBranco;
 int votosNulo;
 
@@ -36,5 +36,8 @@ else
     Console.Write("\nO total de votos nulos é de: " + votosNulo + " e representa " + ((100 * votosNulo) / totEleitores) + "% do total de eleitores.\n");
 }
 
-// Nota: Embora tenha sido solicitado no exercício a entrada pelo usuário de todos os tipos de votos (válidos, branco e nulos), além do total de eleitores, optamos por computar o total de votos válidos de forma dedutiva, ou seja, não teve a inclusão do valor pelo usuário, o que traz inclusive mais segurança.
+/* Nota: Embora tenha sido solicitado no exercício a entrada pelo usuário de todos os tipos de votos (válidos, branco e nulos), além do total de eleitores, optamos por computar o total de votos válidos de forma dedutiva, ou seja, não teve a inclusão do valor pelo usuário, o que traz inclusive mais segurança.
+   Nesse contexto, também é possível introduzir os votos "anuláveis ou inválidos", o que diminuiria a quantidade de Votos Válidos.*/
+ 
+
 

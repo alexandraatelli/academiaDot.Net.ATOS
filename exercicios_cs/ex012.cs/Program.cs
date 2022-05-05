@@ -35,5 +35,6 @@ Console.Write("\nA média de consumo de combustível no dia foi de: " + ((kmPerc
 Console.Write("\nO lucro do dia obtido foi de: R$ " + ((valorRecebidoDia - (quantCombustivelDia * valorlitroCombus)).ToString("f")) + " reais.\n");
 
 
+// Outra forma, que poderia ter sido realizado o exercício seria a criação da variável LucroLiquidoDia = (valorRecebidoDia - (quantCombustivelDia * valorlitroCombus) - que seria uma boa prática, possibilitando melhor manutenção do código, se o caso.
 
 

@@ -1,0 +1,15 @@
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\obj\Debug\net6.0\Manipulação de Strings.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\obj\Debug\net6.0\Manipulação de Strings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\obj\Debug\net6.0\Manipulação de Strings.AssemblyInfoInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\obj\Debug\net6.0\Manipulação de Strings.AssemblyInfo.cs
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\obj\Debug\net6.0\Manipulação de Strings.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\bin\Debug\net6.0\Manipulação de Strings.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\bin\Debug\net6.0\Manipulação de Strings.deps.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\bin\Debug\net6.0\Manipulação de Strings.runtimeconfig.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\bin\Debug\net6.0\Manipulação de Strings.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\bin\Debug\net6.0\Manipulação de Strings.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\obj\Debug\net6.0\Manipulação de Strings.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\obj\Debug\net6.0\refint\Manipulação de Strings.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\obj\Debug\net6.0\Manipulação de Strings.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\obj\Debug\net6.0\Manipulação de Strings.genruntimeconfig.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Manipulação de Strings\obj\Debug\net6.0\ref\Manipulação de Strings.dll

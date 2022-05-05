@@ -4,16 +4,17 @@
 
 
 
-float kmpercorrido = 520;
-float totalconsumido = 55;
+float kmPercorrido = 520;
+float totalConsumidoCombust = 55;
 
 Console.Clear();    
 
-    Console.WriteLine("\nA média de Km percorrido em litros foi de: " + (kmpercorrido / totalconsumido).ToString("f"));
+    Console.WriteLine("\nA média de Km percorrido em litros foi de: " + (kmPercorrido / totalConsumidoCombust).ToString("f"));
 
 
 
-//Não houve necessidade de criar-se uma variável para o resultado solicitado pelo exercício. Diante, das casas decimais extensas, utilizando a consulta na documentação da Microsoft, deixamos somente duas casas apos a vírgula.
+//Não houve necessidade de criar-se uma variável para o resultado solicitado pelo exercício, porém, no caso de aproveitamento futuro do valor dessa variável, recomenda-se a criação da variável media do Km percorrido por litros de combustível gasto.
+//Diante, das casas decimais extensas, utilizando a consulta na documentação da Microsoft, deixamos somente duas casas apos a vírgula.
 
 
 

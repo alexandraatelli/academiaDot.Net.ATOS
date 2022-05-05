@@ -64,7 +64,9 @@ else
 
 
 Console.WriteLine("\nInicio de OUTRO MODO de implementação para se chegar ao resultado do exercício proposto:");
-//RESSALTA-SE que não fiz uma simplificação (boa prática) de entendimento de código para treino, ex: string dia = data.Substring(0, 2)
+
+
+//RESSALTA-SE que realizei essa outra forma, não simplificada, de entendimento de código, para treino, ex: string dia = data.Substring(0, 2)
 
 string data; // Escolhemos a string para ter uma única entrada e para a facilidade de compreensão do usuário.
 bool eNumero = true; // variável auxiliar usada para checagem, se os digitos significativos da data são apenas números (DDMMAAAA).
@@ -128,4 +130,4 @@ data = (Console.ReadLine());
         Console.WriteLine("A data digitada é: " + data.Substring(8, 2) + data.Substring(3, 2) + data.Substring(0, 2));
      }
 
-// Consultado documentação oficial Microsoft
+// Referência: Consultado documentação oficial Microsoft.

@@ -26,12 +26,13 @@ mediaAritmetica = (numero1 + numero2) / 2;
 
 Console.Write("\nA média aritmética dos valores é de: " + mediaAritmetica);
 
-// Nota: Qualquer operação que tiver como origem o Console.ReadLine que não for string, deve-se convertê-la ao tipo apropriado:
+// Nota: Qualquer operação que tiver como origem o Console.ReadLine que não for string, deve-se converter o seu valor ao tipo apropriado:
 // int, float, data....
 
 
-// outra forma de apresentar o resultado:
+// Outra forma de apresentar o resultado:
 
-Console.WriteLine("\n\nA média aritmética dos valores é de: " + (numero1 + numero2) / 2 + " (sem variável de resultado)"); 
+// Console.WriteLine("\n\nA média aritmética dos valores é de: " + (numero1 + numero2) / 2 + " (sem o uso da variável média)");
+// Prática não recomendada tendo em vista a difuldade de manipulação do código em caso de alteração.
 
 

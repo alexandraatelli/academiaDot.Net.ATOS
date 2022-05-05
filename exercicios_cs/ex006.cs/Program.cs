@@ -46,5 +46,5 @@ Console.WriteLine("\nO custo total do parafuso B para " + quantParafB + " unidad
 
 
 
-// Nota: (1 + (porcentIPI / 100) - foi a forma adotada para o cálculo da aplicação do IPI sobre o valor total do produto.
+// Nota: O cálculo (1 + (porcentIPI / 100) - foi a forma adotada para o cálculo da aplicação do IPI sobre o valor total do produto. Lmbrando que outras formas de realização do cálculo resulta no mesmo resultado.
 

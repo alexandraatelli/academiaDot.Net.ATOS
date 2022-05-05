@@ -21,7 +21,7 @@ salario_minimo = float.Parse(Console.ReadLine());
 Console.Write("\nDigite o preço de custo da bike: R$ ");
 valor_custo_bike = double.Parse(Console.ReadLine());
 
-Console.Write("\nDigite a quantidade de bikes vendidas: ");
+Console.Write("\nDigite a quantidade de bikes vendidas pelo vendedor: ");
 quantidade_bikes_vendidas = int.Parse(Console.ReadLine());
 
 Console.WriteLine("\n\nO valor do salário minimo vigente é de: " + salario_minimo.ToString("f"));
@@ -30,6 +30,9 @@ Console.WriteLine("\nO número de bikes vendidas foi de: " + quantidade_bikes_ve
 
 salario_vendedor = (salario_minimo * 2) + (quantidade_bikes_vendidas * (valor_custo_bike * 0.15));
 Console.WriteLine("\nO vendedor recebeu pelas vendas o valor total de: R$ " + salario_vendedor.ToString("f"));
+
+//Observe que a criação de uma variável para conter o valor tota de venda do produto (custo fixo + 50% sobre) seria de pouca utilização, tendo em vista os resultados solicitados.
+
 
 
 

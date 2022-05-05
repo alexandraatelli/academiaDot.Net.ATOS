@@ -4,6 +4,7 @@ string codigoVendedor;
 float salarioFixo;
 float totalVendas;
 float percentualVendas;
+float SalarioTotalRecebdio;
 
 
 Console.Clear();
@@ -21,9 +22,13 @@ totalVendas = float.Parse(Console.ReadLine());
 Console.Write("\nDigite o percentual à receber pelo vendedor código " + codigoVendedor + ", com base no total de vendas do mês atual: ");
 percentualVendas = float.Parse(Console.ReadLine());
 
+SalarioTotalRecebdio = salarioFixo + (1 + (percentualVendas / 100) * totalVendas);
+Console.WriteLine("\nO vendedor código: " + codigoVendedor + " receberá o salário total com as comissões, no valor de: R$ " + SalarioTotalRecebdio.ToString("f") + "\n");
 
 
-Console.WriteLine("\nO vendedor código: " + codigoVendedor + " receberá o salário total no valor de: R$ " + (((1 + (percentualVendas / 100) * totalVendas) + salarioFixo).ToString("f")) + " reais.");
+//Abaxo outra forma de apresentar o resultado:
+
+//Console.WriteLine("\nO vendedor código: " + codigoVendedor + " receberá o salário total no valor de: R$ " + (((1 + (percentualVendas / 100) * totalVendas) + salarioFixo).ToString("f")) + " reais.");
 
 
 
