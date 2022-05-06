@@ -14,6 +14,7 @@ float mediaAritmetica;
 
 Console.Clear(); // Limpa a tela para execução fora da IDE.
 
+
 Console.Write("\nDigite um número qualquer: ");
 numero1 = float.Parse(Console.ReadLine()); // "float" é objeto e o "Parse" é o método que é equivalente a uma função. 
                                            // "Função é um conjunto de instruções com entradas e uma saída, pois pode ter

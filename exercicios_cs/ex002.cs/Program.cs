@@ -8,6 +8,8 @@ float numero3;
 float numero4;
 //float media_aritimetica;
 
+Console.Clear();
+
 Console.WriteLine("Informe o primeiro número: ");
 numero1 = float.Parse(Console.ReadLine());
 
