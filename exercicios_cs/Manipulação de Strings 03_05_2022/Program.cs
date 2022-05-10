@@ -20,6 +20,8 @@ string primeiroNome;
 /// </summary>
 string ultimoNome;
 
+Console.Clear();
+
 
 Console.Write("\nDigite o seu nome completo: ");
 nomeCompleto = Console.ReadLine();
