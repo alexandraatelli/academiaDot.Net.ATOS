@@ -1,0 +1,30 @@
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.AssemblyInfoInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.AssemblyInfo.cs
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\bin\Debug\net6.0\ex007_05_05_2022.cs.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\bin\Debug\net6.0\ex007_05_05_2022.cs.deps.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\bin\Debug\net6.0\ex007_05_05_2022.cs.runtimeconfig.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\bin\Debug\net6.0\ex007_05_05_2022.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\bin\Debug\net6.0\ex007_05_05_2022.cs.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\refint\ex007_05_05_2022.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.genruntimeconfig.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios de Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ref\ex007_05_05_2022.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\bin\Debug\net6.0\ex007_05_05_2022.cs.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\bin\Debug\net6.0\ex007_05_05_2022.cs.deps.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\bin\Debug\net6.0\ex007_05_05_2022.cs.runtimeconfig.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\bin\Debug\net6.0\ex007_05_05_2022.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\bin\Debug\net6.0\ex007_05_05_2022.cs.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.AssemblyInfoInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.AssemblyInfo.cs
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\refint\ex007_05_05_2022.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ex007_05_05_2022.cs.genruntimeconfig.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\Exerc Atos em execução\Exercícios Seleção\ex007_05_05_2022.cs\obj\Debug\net6.0\ref\ex007_05_05_2022.cs.dll

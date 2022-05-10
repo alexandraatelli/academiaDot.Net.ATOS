@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\Exerc Atos em execução\\Manipulação de Strings\\Manipulação de Strings.csproj",
+      "projectUniqueName": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\Manipulação de Strings em 03.02.2022\\Manipulação de Strings.csproj",
       "projectName": "Manipulação de Strings",
-      "projectPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\Exerc Atos em execução\\Manipulação de Strings\\Manipulação de Strings.csproj",
+      "projectPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\Manipulação de Strings em 03.02.2022\\Manipulação de Strings.csproj",
       "packagesPath": "C:\\Users\\atell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\Exerc Atos em execução\\Manipulação de Strings\\obj\\",
+      "outputPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\Manipulação de Strings em 03.02.2022\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\atell\\AppData\\Roaming\\NuGet\\NuGet.Config",
