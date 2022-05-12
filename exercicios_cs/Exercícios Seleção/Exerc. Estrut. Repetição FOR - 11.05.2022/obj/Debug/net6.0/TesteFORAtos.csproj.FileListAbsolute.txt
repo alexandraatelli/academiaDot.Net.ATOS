@@ -1,0 +1,15 @@
+C:\Users\atell\Desktop\Atos\TesteFORAtos\obj\Debug\net6.0\TesteFORAtos.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\TesteFORAtos\obj\Debug\net6.0\TesteFORAtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\Desktop\Atos\TesteFORAtos\obj\Debug\net6.0\TesteFORAtos.AssemblyInfoInputs.cache
+C:\Users\atell\Desktop\Atos\TesteFORAtos\obj\Debug\net6.0\TesteFORAtos.AssemblyInfo.cs
+C:\Users\atell\Desktop\Atos\TesteFORAtos\obj\Debug\net6.0\TesteFORAtos.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\TesteFORAtos\bin\Debug\net6.0\TesteFORAtos.exe
+C:\Users\atell\Desktop\Atos\TesteFORAtos\bin\Debug\net6.0\TesteFORAtos.deps.json
+C:\Users\atell\Desktop\Atos\TesteFORAtos\bin\Debug\net6.0\TesteFORAtos.runtimeconfig.json
+C:\Users\atell\Desktop\Atos\TesteFORAtos\bin\Debug\net6.0\TesteFORAtos.dll
+C:\Users\atell\Desktop\Atos\TesteFORAtos\bin\Debug\net6.0\TesteFORAtos.pdb
+C:\Users\atell\Desktop\Atos\TesteFORAtos\obj\Debug\net6.0\TesteFORAtos.dll
+C:\Users\atell\Desktop\Atos\TesteFORAtos\obj\Debug\net6.0\refint\TesteFORAtos.dll
+C:\Users\atell\Desktop\Atos\TesteFORAtos\obj\Debug\net6.0\TesteFORAtos.pdb
+C:\Users\atell\Desktop\Atos\TesteFORAtos\obj\Debug\net6.0\TesteFORAtos.genruntimeconfig.cache
+C:\Users\atell\Desktop\Atos\TesteFORAtos\obj\Debug\net6.0\ref\TesteFORAtos.dll
