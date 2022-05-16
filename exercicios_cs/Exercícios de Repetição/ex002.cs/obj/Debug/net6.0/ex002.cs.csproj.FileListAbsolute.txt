@@ -1,0 +1,15 @@
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\bin\Debug\net6.0\ex002.cs.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\bin\Debug\net6.0\ex002.cs.deps.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\bin\Debug\net6.0\ex002.cs.runtimeconfig.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\bin\Debug\net6.0\ex002.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\bin\Debug\net6.0\ex002.cs.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\obj\Debug\net6.0\ex002.cs.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\obj\Debug\net6.0\ex002.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\obj\Debug\net6.0\ex002.cs.AssemblyInfoInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\obj\Debug\net6.0\ex002.cs.AssemblyInfo.cs
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\obj\Debug\net6.0\ex002.cs.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\obj\Debug\net6.0\ex002.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\obj\Debug\net6.0\refint\ex002.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\obj\Debug\net6.0\ex002.cs.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\obj\Debug\net6.0\ex002.cs.genruntimeconfig.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\Exercícios de Repetição\ex002.cs\obj\Debug\net6.0\ref\ex002.cs.dll
