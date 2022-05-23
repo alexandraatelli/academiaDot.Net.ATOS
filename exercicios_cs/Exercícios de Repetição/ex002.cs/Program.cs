@@ -15,6 +15,8 @@ Deseja informar outro número (s/n)? N */
 float numero;
 string continua = "s";
 
+Console.Clear();
+
 while (continua == "S" || continua == "s")
 {
 

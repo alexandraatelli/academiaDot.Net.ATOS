@@ -30,7 +30,7 @@ float numero;
 
     // Só entra no for quando o numero certo for digitado lá em cima... enquato não digitar o número correto, ele fica no loop no bloco.
 
-    for (int i = 1; i <= numero; i++) // tem um int aqui porque estou declarando e inicializando com zero a variável. E porque ela desaparece quando acaba o for? Cadê o i? porque essa variável tá presa no contexto do for. Ela só tem vida dentro do for.
+    for (int i = 1; i <= numero; i++) // tem um int aqui porque estou declarando e inicializando com 1 a variável. E porque ela desaparece quando acaba o for? Cadê o i? porque essa variável tá presa no contexto do for. Ela só tem vida dentro do for.
     {
         // Console.WriteLine(i);//Mostrar os números do for de 1 até o numero digitado.
 

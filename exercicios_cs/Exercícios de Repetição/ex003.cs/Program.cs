@@ -2,75 +2,69 @@
 Se o usuário digitar 0 o programa em VS deve parar. 
 Caso contrário, o programa em VS deve informar se o número é par ou ímpar e se ele é um número primo.*/
 
-float numero;
+float numero = 1f;
+string continua = "s";
 
 Console.Clear();
 
-//do
-{
+while (continua == "s" || continua == "S")
+{ 
     Console.Write("Digite um número: ");
-    float.TryParse(Console.ReadLine(), out numero);
+    numero = float.Parse(Console.ReadLine());
 
     if (numero == 0)
     {
-        Console.Write("Número inválido. O programa será fechado!");
+        Console.WriteLine($"Número inválido! O programa será fechado.");
         Thread.Sleep(1000);
-      
+        break;
     }
-} //while (numero >= 1);
-
-    for (int i = 1; i >= numero; i++)
+    else if (numero >= 1 && numero % 2 == 0)
     {
-        if (i % 2 == 0)
-        {
-            Console.WriteLine($"São pares os números {i}.");
-        }
-            else if (i % 2 != 0)
-            {
-                Console.WriteLine($"São ímpares os números {i}.");
-            }
-                else if (i == i)
-                {
-                    Console.WriteLine($"São primos os números {i}.");
-                }
-    }   
-
-
-
-/*float numero;
-string continua = "s";
-
-while (continua == "S" || continua == "s")
-{
-
-    do// marcação para saber qual é o bloco de código que devo iniciar de novo, caso a condição no while seja verdadeira.
+        Console.Write("O número é Par!");
+    }
+    else
     {
-        Console.Clear();//Limpa Console
-        Console.Write("\nDigite um número positivo e inteiro: ");
-        float.TryParse(Console.ReadLine(), out numero);
-        // Console.Write(numero);
-        // Console.Write(numero == (int)numero);
-
-        if (!(numero >= 0 && numero == (int)numero)) // Para que a mensagem seja enviada na digitação de números fora do permitido.
-        {
-            Console.WriteLine("Número invalido!");
-            Thread.Sleep(2000);
-        }
-
-    } while (!(numero >= 0 && numero == (int)numero)); //Ele precisa estar na condição de ser igual ou maior que zero e precisa que ele seja inteiro. Se ele não for isso, se ele me retornar um false, eu invertido a saida lógica com a negação para ele perguntar de novo - ou seja fazer o loop considerando como verdade...pois o while refaz o loop enquanto verdade.
-
-    // Só entra no for quando o numero certo for digitado lá em cima... enquato não digitar o número correto, ele fica no loop no bloco.
-
-    for (int i = 1; i <= numero; i++) // tem um int aqui porque estou declarando e inicializando com zero a variável. E porque ela desaparece quando acaba o for? Cadê o i? porque essa variável tá presa no contexto do for. Ela só tem vida dentro do for.
-    {
-        // Console.WriteLine(i);//Mostrar os números do for de 1 até o numero digitado.
-
-        if (i % 2 == 0)
-        {
-            Console.WriteLine($"São pares os números {i}."); // mostra somente os números PAR entre 1 e o número digitado pelo usuário.
-        }
+        Console.Write("O número é Ímpar!");
     }
 
-    Console.Write("\nQuer digitar outro número? ");
+    if (numero % 2 == 1 || numero == 2)
+    {
+        Console.WriteLine(" e Primo!");
+    }
+
+    Console.Write("\nDigite \"s\" se quer digitar outro número: ");
     continua = Console.ReadLine();
-}*/
+}
+
+
+// Segunda forma para resolver o problema:
+
+
+float valor = 1f;
+bool primo = true;
+
+Console.Clear();
+
+while (valor  !> 0)
+{
+    Console.WriteLine("Digite um valor.: ");
+    valor = float.Parse(Console.ReadLine());
+
+    if (valor % 2 == 0)
+    {
+        Console.WriteLine("PAR!");
+    }
+    else
+    {
+        Console.WriteLine("ÍMPAR");
+    }
+
+    for (int i = 2; i < valor; i++)
+    {
+        if ((valor % i) == 0)
+        {
+            primo = false;
+        }
+    }
+    Console.WriteLine("É Primo!");
+}
