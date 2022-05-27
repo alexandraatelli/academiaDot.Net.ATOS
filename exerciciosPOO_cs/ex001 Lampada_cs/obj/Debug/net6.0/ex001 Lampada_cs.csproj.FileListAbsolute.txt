@@ -1,0 +1,15 @@
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\bin\Debug\net6.0\ex001 Lampada_cs.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\bin\Debug\net6.0\ex001 Lampada_cs.deps.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\bin\Debug\net6.0\ex001 Lampada_cs.runtimeconfig.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\bin\Debug\net6.0\ex001 Lampada_cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\bin\Debug\net6.0\ex001 Lampada_cs.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\obj\Debug\net6.0\ex001 Lampada_cs.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\obj\Debug\net6.0\ex001 Lampada_cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\obj\Debug\net6.0\ex001 Lampada_cs.AssemblyInfoInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\obj\Debug\net6.0\ex001 Lampada_cs.AssemblyInfo.cs
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\obj\Debug\net6.0\ex001 Lampada_cs.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\obj\Debug\net6.0\ex001 Lampada_cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\obj\Debug\net6.0\refint\ex001 Lampada_cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\obj\Debug\net6.0\ex001 Lampada_cs.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\obj\Debug\net6.0\ex001 Lampada_cs.genruntimeconfig.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex001 Lampada_cs\obj\Debug\net6.0\ref\ex001 Lampada_cs.dll

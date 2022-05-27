@@ -1,0 +1,15 @@
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\bin\Debug\net6.0\ex002 Livro.cs.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\bin\Debug\net6.0\ex002 Livro.cs.deps.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\bin\Debug\net6.0\ex002 Livro.cs.runtimeconfig.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\bin\Debug\net6.0\ex002 Livro.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\bin\Debug\net6.0\ex002 Livro.cs.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\obj\Debug\net6.0\ex002 Livro.cs.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\obj\Debug\net6.0\ex002 Livro.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\obj\Debug\net6.0\ex002 Livro.cs.AssemblyInfoInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\obj\Debug\net6.0\ex002 Livro.cs.AssemblyInfo.cs
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\obj\Debug\net6.0\ex002 Livro.cs.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\obj\Debug\net6.0\ex002 Livro.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\obj\Debug\net6.0\refint\ex002 Livro.cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\obj\Debug\net6.0\ex002 Livro.cs.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\obj\Debug\net6.0\ex002 Livro.cs.genruntimeconfig.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex002 Livro.cs\obj\Debug\net6.0\ref\ex002 Livro.cs.dll

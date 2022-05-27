@@ -1,0 +1,15 @@
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\obj\Debug\net6.0\ex003 Pessoa_cs.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\obj\Debug\net6.0\ex003 Pessoa_cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\obj\Debug\net6.0\ex003 Pessoa_cs.AssemblyInfoInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\obj\Debug\net6.0\ex003 Pessoa_cs.AssemblyInfo.cs
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\obj\Debug\net6.0\ex003 Pessoa_cs.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\bin\Debug\net6.0\ex003 Pessoa_cs.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\bin\Debug\net6.0\ex003 Pessoa_cs.deps.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\bin\Debug\net6.0\ex003 Pessoa_cs.runtimeconfig.json
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\bin\Debug\net6.0\ex003 Pessoa_cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\bin\Debug\net6.0\ex003 Pessoa_cs.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\obj\Debug\net6.0\ex003 Pessoa_cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\obj\Debug\net6.0\refint\ex003 Pessoa_cs.dll
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\obj\Debug\net6.0\ex003 Pessoa_cs.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\obj\Debug\net6.0\ex003 Pessoa_cs.genruntimeconfig.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex003 Pessoa_cs\obj\Debug\net6.0\ref\ex003 Pessoa_cs.dll
