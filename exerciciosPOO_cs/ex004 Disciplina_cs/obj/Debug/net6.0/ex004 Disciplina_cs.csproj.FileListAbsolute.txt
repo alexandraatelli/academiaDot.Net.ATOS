@@ -1,5 +1,0 @@
-C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex004 Disciplina_cs\obj\Debug\net6.0\ex004 Disciplina_cs.csproj.AssemblyReference.cache
-C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex004 Disciplina_cs\obj\Debug\net6.0\ex004 Disciplina_cs.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex004 Disciplina_cs\obj\Debug\net6.0\ex004 Disciplina_cs.AssemblyInfoInputs.cache
-C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex004 Disciplina_cs\obj\Debug\net6.0\ex004 Disciplina_cs.AssemblyInfo.cs
-C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex004 Disciplina_cs\obj\Debug\net6.0\ex004 Disciplina_cs.csproj.CoreCompileInputs.cache

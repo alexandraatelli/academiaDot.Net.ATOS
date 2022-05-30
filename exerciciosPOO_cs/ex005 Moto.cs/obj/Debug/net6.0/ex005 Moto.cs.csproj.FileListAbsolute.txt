@@ -1,5 +1,0 @@
-C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex005 Moto.cs\obj\Debug\net6.0\ex005 Moto.cs.csproj.AssemblyReference.cache
-C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex005 Moto.cs\obj\Debug\net6.0\ex005 Moto.cs.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex005 Moto.cs\obj\Debug\net6.0\ex005 Moto.cs.AssemblyInfoInputs.cache
-C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex005 Moto.cs\obj\Debug\net6.0\ex005 Moto.cs.AssemblyInfo.cs
-C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exerciciosPOO_cs\ex005 Moto.cs\obj\Debug\net6.0\ex005 Moto.cs.csproj.CoreCompileInputs.cache
