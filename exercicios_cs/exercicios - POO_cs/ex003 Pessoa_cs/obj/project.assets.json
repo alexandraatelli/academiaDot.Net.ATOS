@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exerciciosPOO_cs\\ex003 Pessoa_cs\\ex003 Pessoa_cs.csproj",
+      "projectUniqueName": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\exercicios - POO_cs\\ex003 Pessoa_cs\\ex003 Pessoa_cs.csproj",
       "projectName": "ex003 Pessoa_cs",
-      "projectPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exerciciosPOO_cs\\ex003 Pessoa_cs\\ex003 Pessoa_cs.csproj",
+      "projectPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\exercicios - POO_cs\\ex003 Pessoa_cs\\ex003 Pessoa_cs.csproj",
       "packagesPath": "C:\\Users\\atell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exerciciosPOO_cs\\ex003 Pessoa_cs\\obj\\",
+      "outputPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\exercicios - POO_cs\\ex003 Pessoa_cs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\atell\\AppData\\Roaming\\NuGet\\NuGet.Config",
