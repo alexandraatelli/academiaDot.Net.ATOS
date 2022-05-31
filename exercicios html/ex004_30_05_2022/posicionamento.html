@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--portugues Brasil-->
+<head>
+    <meta charset="UTF-8"><!--linguagem portugues - acentos - simbolos-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- interpreta o html até essa versão do Windows-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--viewport: qual a porta que o código tem para usuário? é a tela dele. Qual a largura da porta de visualização? todo código lido daqui para baixo é adequado a largura dele. A escala inicial tem como padrão 1.0-->
+    <title>Positions</title>
+    <style>
+        .pai{
+            background-color: aqua;
+            height: 500px;
+            width: 500px;
+            position: static;
+        }
+        .filho1 {
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            left: 50px;
+        }
+        .filho2 {
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            position: relative;
+            top: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Classe pai é todos os elementos que estão dentro dela. Podemo fazer ela ser independente dos filhos-->
+    <dvi calss="pai"></dvi> 
+        <div class="filho1"></div></dvi>
+        <div class="filho2"></div></dvi>
+    </dvi>
+    
+
+    <!--As vezes dar margem para posicionamento não é indicado, principalmente quando tem o responsivo... o ideal é posicionar e não ousar margem.
+    O relativo nos libera outras propriedades para usar com outros elementos. O static não tem isso.
+    bottom: -100px é igual top: 100px
+    Absolute posiona de forma absoluta no espaço, ficou embaixo do outro filho, porque tá todo mundo no canto, e, não conseguimos enxergar o filho1. O absoluto sempre vai ser relativo a alguma coisa, se tiver outro elemento dentor ele vai escorrar, se nao ele fixa no pai
+
+    -->
+</html>
