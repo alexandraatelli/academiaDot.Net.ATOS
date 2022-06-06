@@ -13,7 +13,8 @@ namespace ProblemaEmail
 
         private void gerarEmail()
         {
-            // serviço privado usado somente na hora de construir o email private void gerarEmail()
+            // serviço privado usado somente na hora de construir o email
+            // private void gerarEmail()
             string[] vetorDados = this.nomeCompleto.Split(' ');
             this.email = vetorDados[vetorDados.Length - 1] + "." + vetorDados[0] + "@ufn.edu.br";
             this.email = this.email.ToLower();
@@ -31,8 +32,10 @@ namespace ProblemaEmail
             this.nomeCompleto = nome;
             this.email = email;
         }
-        public string Nome { get => nomeCompleto; set => nomeCompleto = value; } // agente para conversar com a variável nomeCompleto
-        public string Email { get => email; } // agente para conversar com a variável email
+        public string Nome { get => nomeCompleto; set => nomeCompleto = value; } 
+        // agente para conversar com a variável nomeCompleto
+        public string Email { get => email; } 
+        // agente para conversar com a variável email
     }
 }
 

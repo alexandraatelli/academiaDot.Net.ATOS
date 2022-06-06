@@ -1,4 +1,6 @@
-﻿//Programa em VS que recebe emails de um usuário e que são gravados em arquivo.
+﻿// 6 - AULA ADMINISTRADA PELO PROFESSOR ACADEMIA ATOS:
+//
+//Programa em VS que recebe emails de um usuário e que são gravados em arquivo.
 
 using ex006_19_05_2022;
 
@@ -31,7 +33,8 @@ catch (IOException e)
     //nao faz nada, pq o arquivo será criado na linha 34
 }
 
-StreamWriter escritor = new StreamWriter(nomeArquivo, true); //abre o arquivo para escrita e com append
+StreamWriter escritor = new StreamWriter(nomeArquivo, true); 
+//abre o arquivo para escrita e com append
 
 do
 {
@@ -79,7 +82,8 @@ do
                     listaPessoas.Add(p);
                     //adicionar o objeto no arquivo
                     escritor.WriteLine(p.nome + ";" + p.email); //literalmente escreve no procurador e em memória
-                    escritor.Flush(); //garante depois de cada frase digitada que vá para o arquivo                
+                    escritor.Flush(); 
+                    //garante depois de cada frase digitada que vá para o arquivo                
                 }
             }
             catch (IOException e)
@@ -107,6 +111,7 @@ do
     Console.ReadKey();
 } while (opcao != "3");
 
-escritor.Close(); //fecha o objeto que representa o arquivo
+escritor.Close(); 
+//fecha o objeto que representa o arquivo
 
 

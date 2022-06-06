@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\Manipulando Arquivos Texto 18_05_2022\\ex002_18_05_2022\\ex002_18_05_2022.cs.csproj",
-      "projectName": "ex002_18_05_2022.cs",
-      "projectPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\Manipulando Arquivos Texto 18_05_2022\\ex002_18_05_2022\\ex002_18_05_2022.cs.csproj",
+      "projectUniqueName": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\Manipulando Arquivos Texto 18_05_2022\\ex002_18_05_2022\\ex002_18_05_2022.csproj",
+      "projectName": "ex002_18_05_2022",
+      "projectPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\Manipulando Arquivos Texto 18_05_2022\\ex002_18_05_2022\\ex002_18_05_2022.csproj",
       "packagesPath": "C:\\Users\\atell\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\atell\\Desktop\\Atos\\MeusProjAtos.Net\\academiaDot.Net\\exercicios_cs\\Manipulando Arquivos Texto 18_05_2022\\ex002_18_05_2022\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,4 +1,6 @@
-﻿// 7 - Problema das listagens dos alunos (disciplinas de Estruturas de Dados e Linguagem de Programação)
+﻿// 7 - AULA ADMINISTRADA PELO PROFESSOR ACADEMIA ATOS:
+//
+// Problema das listagens dos alunos (disciplinas de Estruturas de Dados e Linguagem de Programação)
 // -Arquivos.txt com nomes dos matriculados (matricula; nome; email)
 // Listas -> List(Count, Add(), AddRange(), Remove(), Contains())
 // Console -> Console(WriteLine(), ReadLine(), ReadKey(), Clear())

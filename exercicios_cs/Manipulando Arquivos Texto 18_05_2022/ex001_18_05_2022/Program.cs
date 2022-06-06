@@ -1,7 +1,12 @@
-﻿// 1 -  Lista Glicemia é um objeto da classe List, logo tem atributos e métodos que são da classe. Ex: Cout; Add(); Constains();
+﻿// 1 - AULA ADMINISTRADA PELO PROFESSOR ACADEMIA ATOS:
+//
+// Lista Glicemia é um objeto da classe List, logo tem atributos e métodos
+// que são da classe. Ex: Cout; Add(); Constains();
 
-// Opção é um objeto da classe string, logo tem atributos e métodos vindo da classe. Ex: ToUpper
-// 1) Fazer um programa em VS que gere uma lista com valores aleatórios e inteiros para glicemia (entre 45 a 500).
+// Opção é um objeto da classe string, logo tem atributos e métodos vindo
+// da classe. Ex: ToUpper
+// 1) Fazer um programa em VS que gere uma lista com valores aleatórios e
+// inteiros para glicemia (entre 45 a 500).
 // O programa deve calcular média, valor mínimo, valor máximo e mediana.
 // Sugere-se criar um menu como:
 
@@ -12,13 +17,17 @@
 // 4 - Sair
 // Opção: ____
 
-// Observação Observação: toda vez que a opção 1 for acionada, o deve definir quantos números serão gerados pelo usuário na lista
+// Observação Observação: toda vez que a opção 1 for acionada, o deve definir
+// quantos números serão gerados pelo usuário na lista
 
-// listaGlicemia é um objeto da classe List, logo tem atributos e métodos vindos da classe: Count; Adicionar(); Contém()
+// listaGlicemia é um objeto da classe List, logo tem atributos e métodos
+// vindos da classe: Count; Adicionar(); Contém()
 
 List<int> listaGlicemia = new List<int>();
 
-// opcao é um objeto da classe string, logo tem atributos e métodos vindos da classe: ToUpper(); Length; Split()
+// opcao é um objeto da classe string, logo tem atributos e métodos
+// vindos da classe: ToUpper(); Length; Split()
+
 string opcao = "";
 do
 {

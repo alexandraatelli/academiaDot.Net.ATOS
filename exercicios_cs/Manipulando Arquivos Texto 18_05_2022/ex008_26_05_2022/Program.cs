@@ -1,25 +1,25 @@
-﻿/* 8 - Desafio: programa no VS, com menu, para cadastrar usuários no sistema e gerar seus emails
-               automaticamente. Os usuários (nome completo e email) devem ser persistidos em arquivo.
-               Além disso, é preciso mantê-los em uma lista dinâmica em memória, que é populada sempre que 
-               o programa executa.
-
-                Menu
-                1 - Cadastrar usuário (só o nome completo)
-                        -gerar o email 
-                        - verificar se este email já foi gerado (na lista)
-                        -caso não exista, colocar na lista e persistir no arquivo: nome completo; email
-                2 - Listar os usuários(nome completo e email)
-                        -mostrar ordenado(pode)
-                3 - Sair
-                Opção:
+﻿/* 8 - Desafio: programa no VS, com menu, para cadastrar usuários no sistema e 
+ * gerar seus emails automaticamente. Os usuários (nome completo e email) devem 
+ * ser persistidos em arquivo. Além disso, é preciso mantê-los em uma lista 
+ * dinâmica em memória, que é populada sempre que o programa executa.
+ Menu
+ 1 - Cadastrar usuário (só o nome completo)
+      - gerar o email 
+      - verificar se este email já foi gerado (na lista)
+      - caso não exista, colocar na lista e persistir no arquivo: nome completo, e
+      - email
+ 2 - Listar os usuários(nome completo e email)
+      -mostrar ordenado(pode)
+ 3 - Sair
+ Opção:
 
 Observações: Classe Usuário(construtor, getters/ setters, gerarEmail); List; StreamWriter; StreamReader*/
 
 using ProblemaEmail; // lendo namespace aqui
 
-/*Usuario objeto = new Usuario("Alexandra Carla Atelli");
-Console.WriteLine(objeto.Email); // Email em maiúsculo porque é o agente aqui - só temos o get para ele*/
-using ProblemaEmail;
+//Usuario objeto = new Usuario("Alexandra Carla Atelli");
+// Email em maiúsculo porque é o agente aqui - só temos o get para ele
+//Console.WriteLine(objeto.Email); 
 
 List<Usuario> listaUsuarios = new List<Usuario>();
 string opcao;

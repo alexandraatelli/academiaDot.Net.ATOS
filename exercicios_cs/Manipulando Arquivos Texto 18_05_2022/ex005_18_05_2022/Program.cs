@@ -1,8 +1,11 @@
-﻿//5 - Programa em VS que recebe emails de um usuário e que são gravados em arquivo.
+﻿//5 - AULA ADMINISTRADA PELO PROFESSOR ACADEMIA ATOS:
+//
+//Programa em VS que recebe emails de um usuário e que são gravados em arquivo.
 
 string opcao = "";
 string nomeArquivo = "emails.dat"; //texto puro -> plain text
-StreamWriter escritor = new StreamWriter(nomeArquivo, true); //abre o arquivo para escrita e com append
+StreamWriter escritor = new StreamWriter(nomeArquivo, true); 
+//abre o arquivo para escrita e com append
 
 do
 {
@@ -28,8 +31,10 @@ do
 
                 Console.Write("Digite email: ");
                 email = Console.ReadLine().ToLower();
-                escritor.WriteLine(nome + ";" + email); //literalmente escreve no procurador e em memória
-                escritor.Flush(); //garante depois de cada frase digitada que vá para o arquivo                
+                escritor.WriteLine(nome + ";" + email); 
+                //literalmente escreve no procurador e em memória
+                escritor.Flush(); 
+                //garante depois de cada frase digitada que vá para o arquivo                
             }
             catch (IOException e)
             {
@@ -47,4 +52,5 @@ do
     Console.ReadKey();
 } while (opcao != "2");
 
-escritor.Close(); //fecha o objeto que representa o arquivo
+escritor.Close(); 
+//fecha o objeto que representa o arquivo

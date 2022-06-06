@@ -1,7 +1,13 @@
-﻿// 2) Fazer um programa em VS que permita o usuário cadastrar emails de clientes (em uma lista). 
-// Uma vez cadastrados os emails, o programa deve separar o nome de usuário (antes do @) do domínio do email 
-// (depois do @). Ao final, o programa deve exibir os domínios utilizados no cadastro (não pode exibir os repetidos).
-// Observação: os domínio são, por exemplo, gmail.com; yahoo.com.br; ufn.edu.br; hotmail.com; entre outros.
+﻿// 2 - AULA ADMINISTRADA PELO PROFESSOR ACADEMIA ATOS:
+//
+//Fazer um programa em VS que permita o usuário cadastrar emails de clientes
+//(em uma lista). 
+// Uma vez cadastrados os emails, o programa deve separar o nome de usuário
+// (antes do @) do domínio do email 
+// (depois do @). Ao final, o programa deve exibir os domínios utilizados no
+// cadastro (não pode exibir os repetidos).
+// Observação: os domínio são, por exemplo, gmail.com; yahoo.com.br; ufn.edu.br;
+// hotmail.com; entre outros.
 
 // Sugere-se usar um menu como:
 

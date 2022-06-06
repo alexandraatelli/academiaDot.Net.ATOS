@@ -11,7 +11,8 @@ bem como a data de nascimento.
 
 A NetEmpresa possui muitos clientes cadastrados. 
 Somente clientes cadastrados podem alugar filmes. 
-Para cada cliente é necessário saber seu pré-nome e seu sobrenome, seu telefone e seu endereço. 
+Para cada cliente é necessário saber seu pré-nome e seu sobrenome, seu 
+telefone e seu endereço. 
 Além disso, cada cliente recebe um número de associado.
 Finalmente, desejamos saber que filmes cada cliente tem alugados. 
 Um cliente pode ter vários empréstimos em um instante no tempo. 
@@ -37,8 +38,82 @@ Filme(codFilme, titulo, codCategoria, codAtor ativo).
 Cliente(codCliente, prenome, sobrenome, telefone, endereco, ativo).
     codCliente chave primaria
 
-Aluguel(codFilme, codCliente, data, hota).
+Aluguel(codFilme, codCliente, data, hora).
     codFilme, codCliente, data e hora formam chave primária
     codFilme referencia Filme
     codCliente referencia Cliente
+
+
+filme 1..n  ---------- 1..1 categoria = relação de cardinalidade é n x 1 (categoria é chave estrangeira 
+na tabela de filme)
+
+ator 0..n  ------------ 0..n filme = relção de n x n de cardinalidade (cria-se uma terceira tabala, com chave primaria de 
+ator e filme, que está serão estrangeira nesta tabela receberá o nome = filmeAtorEstrela).
+
+cliente 1 -------- 1..n aluguel = relação de cardinalidade é de 1 x n de cardinalidade
+filme 1 ---------- 1..n aluguel = relação de cardinalidade é de 1 x n de cardinalidade
+
+
+************************
+
+class Categoria
+{
+	int codCategoria;
+	string descricao;
+	char ativo;
+
+// {Get e Set}
+}
+
+Class Ator
+{
+	int codAtor;
+	string apelido;
+	string nome; 
+	Data Nascimento;
+	char ativo;
+
+// {Get e Set}
+}
+
+Class Filme
+{
+	int codFilme,
+	string titulo;
+	int codCategoria;
+	int codAtor;
+	char ativo;
+
+// {Get e Set}
+}
+
+class filmeAtorEstrela
+{
+	int codFilme;
+	int codAtor;
+
+// {Get e Set}
+}
+
+
+class Cliente
+{ 
+	int codCliente;
+ 	string prenome;
+	string sobrenome;
+	string telefone;
+	string endereco;
+	char ativo;
+
+// {Get, Set}
+}   
+
+class Aluguel
+{
+	int codFilme;
+	int codCliente; 
+	DateTime datahora;
+
+// {Get, Set}
+}
 

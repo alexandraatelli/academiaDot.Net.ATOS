@@ -1,4 +1,7 @@
-﻿// 4) Fazer um programa em VS, como o programa de número 2, entretando os emails devem ser coletados de um arquivo
+﻿// 4 - AULA MINISTRADA PELO PROFESSOR ACADEMIA ATOS:
+//
+//
+// Fazer um programa em VS, como o programa de número 2, entretando os emails devem ser coletados de um arquivo
 // e populados em uma lista. Uma vez populados os emails na lista, o programa deve separar o nome de usuário (antes do @)
 // do domínio do email (depois do @). Ao final, o programa deve exibir os domínios utilizados no cadastro 
 // (não pode exibir os repetidos).
@@ -42,9 +45,11 @@ do
                 String nomeArquivo;
                 Console.Write("Digite o nome do arquivo com os emails: ");
                 nomeArquivo = Console.ReadLine();
-                StreamReader leitor = new StreamReader(nomeArquivo); //abre o arquivo para leitura
-                //StreamReader leitor = new StreamReader(nomeArquivo, Encoding.UTF8); //abre o arquivo para leitura
-
+                StreamReader leitor = new StreamReader(nomeArquivo); 
+                //abre o arquivo para leitura
+                //StreamReader leitor = new StreamReader(nomeArquivo,
+                //Encoding.UTF8); 
+                //abre o arquivo para leitura
                 do
                 {
                     email = leitor.ReadLine();
@@ -66,7 +71,8 @@ do
 
                 } while (!leitor.EndOfStream);
 
-                leitor.Close(); //fecha o objeto que representa o arquivo
+                leitor.Close(); 
+                //fecha o objeto que representa o arquivo
             }
             catch (IOException e)
             {

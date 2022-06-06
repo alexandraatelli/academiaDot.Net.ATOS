@@ -1,4 +1,7 @@
-﻿// 3) Fazer um programa parecido com o número 1, porém, os dados devem vir de um arquivo texto (um valor abaixo do outro).
+﻿// 3 - AULA ADMINISTRADA PELO PROFESSOR ACADEMIA ATOS:
+//
+// Fazer um programa parecido com o número 1, porém, os dados devem vir de um
+// arquivo texto (um valor abaixo do outro).
 
 // Também sugere-se usar um menu
 
@@ -9,10 +12,12 @@
 // 4 - Sair
 // Opção: ____
 
-// listaGlicemia é um objeto da classe List, logo tem atributos e métodos vindos da classe: Count; Add(); Contains()
+// listaGlicemia é um objeto da classe List, logo tem atributos e métodos vindos
+// da classe: Count; Add(); Contains()
 List<int> listaGlicemia = new List<int>();
 
-// opcao é um objeto da classe string, logo tem atributos e métodos vindos da classe: ToUpper(); Length; Split()
+// opcao é um objeto da classe string, logo tem atributos e métodos vindos da
+// classe: ToUpper(); Length; Split()
 string opcao = "";
 do
 {
@@ -35,8 +40,11 @@ do
                 String nomeArquivo;
                 Console.Write("Digite o nome do arquivo com valores glicemicos que deseja ler: ");
                 nomeArquivo = Console.ReadLine();
-                StreamReader leitor = new StreamReader(nomeArquivo); //abre o arquivo para leitura
-                //StreamReader leitor = new StreamReader(nomeArquivo, Encoding.UTF8); //abre o arquivo para leitura
+                StreamReader leitor = new StreamReader(nomeArquivo); 
+                //abre o arquivo para leitura
+                //StreamReader leitor = new StreamReader(nomeArquivo,
+                //Encoding.UTF8); 
+                //abre o arquivo para leitura
 
                 do
                 {
@@ -44,7 +52,8 @@ do
 
                 } while (!leitor.EndOfStream);
 
-                leitor.Close(); //fecha o objeto que representa o arquivo
+                leitor.Close(); 
+                //fecha o objeto que representa o arquivo
             }
             catch (IOException e)
             {
