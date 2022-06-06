@@ -1,5 +1,6 @@
 Modelagem Lógica do Sistema de Vendas:
 
+
 Cliente(codCliente, nome, rua, numero, complemento, ep, cidade, estado, fone)
 	codCliente é chave primária
 
@@ -29,6 +30,7 @@ Cliente 0..n -----------1..n Produto -> cardinalidade n x n, gera uma nova tabel
 Vendedor 1..n ---------- 1..n Cliente -> cardinalidade n x n, gera uma nova tabela de Venda
 Vendedor 0..n ----------- 1..n Produto -> cardinalidade n x n, gera uma nova tabela de Venda
 Produto 0..n ----------- 1..1 Prateleira -> cardinalidade 1 x n (**leva chave estrangeira para o lado do n.**)
+
 
 public class Cliente
 {
