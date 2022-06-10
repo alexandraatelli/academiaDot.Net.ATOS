@@ -1,0 +1,29 @@
+[21:30] ALEXANDRE DE OLIVEIRA ZAMBERLAN
+    -- Conta quantas tuplas/linhas há na tabela Ranking_Semanal
+
+-- i.Mostre todos os autores cadastrados;
+
+-- ii.Mostre apenas os nomes dos autores;
+
+-- iii.Mostre o nome e a identificação do autor, nesta ordem;
+-- iv.Mostre o nome dos autores que aparecem na tabela Livro_Autor;
+
+-- v.Mostre o nome dos autores, sem repetição, presentes na tabela Livro_Autor;
+
+-- vi.Mostre os autores em ordem alfabética;
+
+-- vii.Mostre o título dos livros que são da editora Rocco ou da editora Scipione;
+
+-- viii.Mostre, em ordem alfabética, os autores que começam com M;
+
+-- ix.Mostre, em ordem alfabética, os autores que começam com L;
+
+-- x.Mostre, em ordem alfabética, os autores que NÃO começam com L;
+
+-- xi.Mostre, em qualquer ordem, os autores que não começam com M;
+
+-- xii.Liste apenas os livros das editoras 1 OU 5;
+
+-- xiii.Mostre os livros infantis das editoras 1 e 5;
+
+<https://teams.microsoft.com/l/message/19:aO9x1ORfqiCrMrWSs9QEHq6bA0cKniIYZJQtgwwsahY1@thread.tacv2/1654648255967?tenantId=e5a2d57f-82e3-43da-af1c-1a2cc1b42330&amp;groupId=14f1feb2-a622-4e00-9524-3bb9e7f1f6d7&amp;parentMessageId=1650912356195&amp;teamName=2022-1 Academia .Net - Abril&amp;channelName=Geral&amp;createdTime=1654648255967>

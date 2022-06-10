@@ -1,0 +1,5 @@
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\exercicios - POO_cs\ex004 Disciplinas\obj\Debug\net6.0\ex004 Disciplinas.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\exercicios - POO_cs\ex004 Disciplinas\obj\Debug\net6.0\ex004 Disciplinas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\exercicios - POO_cs\ex004 Disciplinas\obj\Debug\net6.0\ex004 Disciplinas.AssemblyInfoInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\exercicios - POO_cs\ex004 Disciplinas\obj\Debug\net6.0\ex004 Disciplinas.AssemblyInfo.cs
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\exercicios - POO_cs\ex004 Disciplinas\obj\Debug\net6.0\ex004 Disciplinas.csproj.CoreCompileInputs.cache

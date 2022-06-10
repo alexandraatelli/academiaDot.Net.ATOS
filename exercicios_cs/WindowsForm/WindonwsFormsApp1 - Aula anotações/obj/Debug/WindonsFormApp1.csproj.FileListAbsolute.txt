@@ -1,0 +1,11 @@
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindonwsFormsApp1\bin\Debug\ProjetoWindonsForm1.exe.config
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindonwsFormsApp1\bin\Debug\ProjetoWindonsForm1.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindonwsFormsApp1\bin\Debug\ProjetoWindonsForm1.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindonwsFormsApp1\obj\Debug\WindonsFormApp1.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindonwsFormsApp1\obj\Debug\WindonsFormApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindonwsFormsApp1\obj\Debug\ProjetoWindonsForm1.Form1.resources
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindonwsFormsApp1\obj\Debug\ProjetoWindonsForm1.Properties.Resources.resources
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindonwsFormsApp1\obj\Debug\WindonsFormApp1.csproj.GenerateResource.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindonwsFormsApp1\obj\Debug\WindonsFormApp1.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindonwsFormsApp1\obj\Debug\ProjetoWindonsForm1.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindonwsFormsApp1\obj\Debug\ProjetoWindonsForm1.pdb
