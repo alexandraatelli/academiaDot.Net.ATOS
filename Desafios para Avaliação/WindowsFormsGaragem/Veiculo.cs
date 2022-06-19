@@ -34,7 +34,10 @@ namespace WindowsFormsGaragem
             this.HoraEntrada = horaEntrada;
         }
 
-        //Este construtor tem o comportamento do primeiro construtor anterior, mais o que for adicionado neste. Por isso o uso do this (que diz respeito a própria classe, ao próprio objeto). Primeiro executa construtor anterior e após o adicionados neste. Chamada em cascata.
+        //Este construtor tem o comportamento do primeiro construtor anterior, mais o que
+        //for adicionado neste. Por isso o uso do this (que diz respeito a própria classe,
+        //ao próprio objeto). Primeiro executa construtor anterior e após o adicionados
+        //neste. Chamada em cascata.
         public Veiculo(string placa, string tipo, string dataEntrada, string horaEntrada,
             string dataSaida, string horaSaida) : this(placa, tipo, dataEntrada, horaEntrada)
         {

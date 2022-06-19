@@ -33,7 +33,8 @@ namespace WindowsFormsGaragem
             this.popularlistaVeiculosEntrada(listaEntradaGaragem);
             Persistencia.LerArquivoSaida(listaHistorico, limiteVeiculosHistorico);
             this.popularlistaHistorico(listaHistorico);
-            //Armazena as parametrizações para o funcionamento da garagem. Inclui os tipos de veículos aceitos.
+            //Armazena as parametrizações para o funcionamento da garagem. Inclui os tipos
+            //de veículos aceitos.
         }
 
         private void popularlistaVeiculosEntrada(List<Veiculo> lista)
@@ -43,7 +44,8 @@ namespace WindowsFormsGaragem
             foreach (Veiculo i in lista)
             {
                 contador++;
-                Tb_ListaEntrada.AppendText(contador + " ; " + i.Placa + " ; " + i.Tipo + ";" + i.DataEntrada + " ; " + i.HoraEntrada + Environment.NewLine);
+                Tb_ListaEntrada.AppendText(contador + " ; " + i.Placa + " ; " + i.Tipo + 
+                ";" + i.DataEntrada + " ; " + i.HoraEntrada + Environment.NewLine);
             }
         }
 
@@ -52,7 +54,8 @@ namespace WindowsFormsGaragem
            
             Tb_ListaHistorico.Text = "";
             int contador = 0;
-            //Popula a lista de histórico de forma que mantem as últimas saídas dos veículos no topo de exibição.
+            //Popula a lista de histórico de forma que mantem as últimas saídas dos
+            //veículos no topo de exibição.
             foreach (Veiculo i in lista)
             {
                 contador++;
@@ -68,7 +71,8 @@ namespace WindowsFormsGaragem
             }
         }
 
-        //Limpa o formulário e espera 1 segundo (conforto de usabilidade) até a apresentação do Tiquete de Entrada.
+        //Limpa o formulário e espera 1 segundo (conforto de usabilidade) até a
+        //apresentação do Tiquete de Entrada.
         private void LimparFormulario()
         {
             Tb_Placas.Text = "";
@@ -82,7 +86,8 @@ namespace WindowsFormsGaragem
             if (Veiculo.TemLugar(listaEntradaGaragem, tamanhoDaGaragem))
             {
                 // Se vaga, então, instancia objeto veículo com os parâmetros do cadastro
-                veiculo = new Veiculo(Tb_Placas.Text.ToUpper(), Cb_TipoVeiculo.Text, DateTime.Now.ToString("dd/MM/yyyy"), DateTime.Now.ToString("HH:mm"));
+                veiculo = new Veiculo(Tb_Placas.Text.ToUpper(), Cb_TipoVeiculo.Text, 
+                DateTime.Now.ToString("dd/MM/yyyy"), DateTime.Now.ToString("HH:mm"));
 
                 //validação da quantidade de caracteres.
                 if (Tb_Placas.Text.Length != 7)
@@ -99,7 +104,8 @@ namespace WindowsFormsGaragem
                 }
                 else
                 {
-                    //Se atendida todas as condições (placa não consta no pátio, escolhido o tipo de veículo, comprimento da placa, e se, vaga no pátio, então:
+                    //Se atendida todas as condições (placa não consta no pátio, escolhido
+                    //o tipo de veículo, comprimento da placa, e se, vaga no pátio, então:
                     //adiciona o novo veículo na lista de entrada.
                     listaEntradaGaragem.Add(veiculo);
                     //Persiste a lista de veículo completa na garagem.
@@ -146,13 +152,14 @@ namespace WindowsFormsGaragem
             }
             else
             {
-                //Armazena a posição/indice no vetor que contem um objeto com a placa informada. A listaEntradaGaragem é o vetor.
+                //Armazena a posição/indice no vetor que contem um objeto com a placa
+                //informada. A listaEntradaGaragem é o vetor.
                 posicaoVeiculo = Veiculo.Localizado(Tb_Placas.Text.ToUpper(), listaEntradaGaragem);
   
                 if (posicaoVeiculo != -27)
                 {
                     //Cria novo objeto para saída com base na posição do vetor, que contem
-                    //oobjeto da placa informada em tela, previamente localizado na 
+                    //o objeto da placa informada em tela, previamente localizado na 
                     //posicaoVeiculo.
                     veiculo = new Veiculo(
                         listaEntradaGaragem[posicaoVeiculo].Placa,
@@ -168,10 +175,14 @@ namespace WindowsFormsGaragem
                     listaEntradaGaragem.RemoveAt(Veiculo.Localizado(veiculo.Placa, listaEntradaGaragem));
                     //Persiste a lista completa atualizada da lista de entrada
                     Persistencia.GravarNoArquivoEntrada(listaEntradaGaragem);
-                    //Adiciona o veículo que saiu da lista de entrada para a lista de histórico na primeira posição(para não desaparecer caso seja atingida o tamanho de persistencia) - saída.
+                    //Adiciona o veículo que saiu da lista de entrada para a lista de
+                    //histórico na primeira posição(para não desaparecer caso seja atingida
+                    //o tamanho de persistencia) - saída.
                     listaHistorico.Insert(0,veiculo);
                     
-                    //Retira o último item da lista para quantidade de veiculos serem gravadas corretamente na lista de histórico, obecendo o limite de veiculos estipulado no arquivo.
+                    //Retira o último item da lista para quantidade de veiculos serem
+                    //gravadas corretamente na lista de histórico, obecendo o limite de
+                    //veiculos estipulado no arquivo.
                     if (listaHistorico.Count >= limiteVeiculosHistorico + 1)
                     {
                         listaHistorico.RemoveAt(limiteVeiculosHistorico);

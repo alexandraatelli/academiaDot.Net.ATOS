@@ -38,7 +38,9 @@ namespace WindowsFormsGaragem
 
             foreach (Veiculo i in lista)
             {
-                escritor.WriteLine(i.Placa + ";" + i.Tipo + ";" + i.DataEntrada + ";" + i.HoraEntrada + ";" + i.DataSaida + ";" + i.HoraSaida + ";" + i.TempoPermanencia + ";" + i.ValorCobrado);
+                escritor.WriteLine(i.Placa + ";" + i.Tipo + ";" + i.DataEntrada + ";" + 
+                i.HoraEntrada + ";" + i.DataSaida + ";" + i.HoraSaida + ";" + 
+                i.TempoPermanencia + ";" + i.ValorCobrado);
                 escritor.Flush();
             }
             escritor.Close();
@@ -89,7 +91,9 @@ namespace WindowsFormsGaragem
                 {
                     vetorDados = linha.Split(';');
                    
-                    lista.Add(new Veiculo(vetorDados[0], vetorDados[1], vetorDados[2], vetorDados[3], vetorDados[4], vetorDados[5], int.Parse(vetorDados[6]), double.Parse(vetorDados[7])));
+                    lista.Add(new Veiculo(vetorDados[0], vetorDados[1], vetorDados[2], 
+                    vetorDados[3], vetorDados[4], vetorDados[5], int.Parse(vetorDados[6]),
+                    double.Parse(vetorDados[7])));
                     contador++;
                 }
             } while (!leitor.EndOfStream && contador <= limiteVeiculosHistorico);
@@ -98,7 +102,10 @@ namespace WindowsFormsGaragem
         }
 
         //Armazena as parametrizações para o funcionamento da garagem. Inclui os tipos de veículos aceitos.
-        public static void ConfiguracoesGaragem(ref int tamanhoDaGaragem, ref double valorDaHora, ref string nomeEstabelecimento, ref string[] tipoVeiculo, ref int limiteVeiculosHistorico) //ref - Passagem por referencia.
+        public static void ConfiguracoesGaragem(ref int tamanhoDaGaragem, 
+            ref double valorDaHora, ref string nomeEstabelecimento, 
+            ref string[] tipoVeiculo, ref int limiteVeiculosHistorico) 
+            //ref - Passagem por referencia.
         {
             StreamReader leitor = new StreamReader("dadosGaragem.dat");
             string linha;
@@ -106,11 +113,21 @@ namespace WindowsFormsGaragem
             do
             {
                 linha = leitor.ReadLine();
-                vetorDados = linha.Split(';'); // gera vetor com parâmetros do sistema, sepapando-os por vírgula. Ou seja, para cada ponto e vírgula gera um conteúdo diferente.
+
+                // gera vetor com parâmetros do sistema,sepapando-os por vírgula. Ou seja,
+                // para cada ponto e vírgula gera um conteúdo diferente. 
+                vetorDados = linha.Split(';');
                 tamanhoDaGaragem = int.Parse(vetorDados[0]);
                 valorDaHora = double.Parse(vetorDados[1]);
-                nomeEstabelecimento = vetorDados[2];// Representa o nome do estabelecimento constante no arquivo de configuração.
-                tipoVeiculo = vetorDados[3].Split(','); // Gerou novo vetor a partir de um elemento do vetor de configurações - vetorDados - linha 101. - que representa a lista dos tipos de veículos aceitos, com possibilidade de aumentá-la ou diminui-la.
+
+                // Representa o nome do estabelecimento constante no arquivo de
+                // configuração.
+                nomeEstabelecimento = vetorDados[2];
+
+                // Gerou novo vetor a partir de um elemento do vetor de configurações -
+                // vetorDados - linha 101. - que representa a lista dos tipos de veículos
+                // aceitos, com possibilidade de aumentá-la ou diminui-la.
+                tipoVeiculo = vetorDados[3].Split(','); 
                 limiteVeiculosHistorico = int.Parse(vetorDados[4]);
             } while (!leitor.EndOfStream);
             leitor.Close();
