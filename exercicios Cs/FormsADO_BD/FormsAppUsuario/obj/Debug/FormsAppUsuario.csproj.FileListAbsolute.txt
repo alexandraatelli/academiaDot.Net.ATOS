@@ -1,0 +1,11 @@
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\FormsADO_BD\FormsAppUsuario\bin\Debug\WindowsFormsAppUsuario.exe.config
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\FormsADO_BD\FormsAppUsuario\bin\Debug\WindowsFormsAppUsuario.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\FormsADO_BD\FormsAppUsuario\bin\Debug\WindowsFormsAppUsuario.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\FormsADO_BD\FormsAppUsuario\obj\Debug\FormsAppUsuario.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\FormsADO_BD\FormsAppUsuario\obj\Debug\FormsAppUsuario.csproj.SuggestedBindingRedirects.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\FormsADO_BD\FormsAppUsuario\obj\Debug\WindowsFormsAppUsuario.FormUsuario.resources
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\FormsADO_BD\FormsAppUsuario\obj\Debug\WindowsFormsAppUsuario.Properties.Resources.resources
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\FormsADO_BD\FormsAppUsuario\obj\Debug\FormsAppUsuario.csproj.GenerateResource.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\FormsADO_BD\FormsAppUsuario\obj\Debug\FormsAppUsuario.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\FormsADO_BD\FormsAppUsuario\obj\Debug\WindowsFormsAppUsuario.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\FormsADO_BD\FormsAppUsuario\obj\Debug\WindowsFormsAppUsuario.pdb

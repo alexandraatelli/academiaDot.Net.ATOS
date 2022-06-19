@@ -29,191 +29,164 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBoxPlacas = new System.Windows.Forms.TextBox();
-            this.textBoxDataEntrada = new System.Windows.Forms.TextBox();
-            this.textBoxHoraEntrada = new System.Windows.Forms.TextBox();
-            this.textBoxDataSaida = new System.Windows.Forms.TextBox();
-            this.textBoxHoraSaida = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.buttonCadastrar = new System.Windows.Forms.Button();
-            this.buttonRemover = new System.Windows.Forms.Button();
-            this.buttonFecharConta = new System.Windows.Forms.Button();
-            this.textBoxVeiculosPatio = new System.Windows.Forms.TextBox();
-            this.textBoxListaVeiculosAtual = new System.Windows.Forms.TextBox();
+            this.Tb_Placas = new System.Windows.Forms.TextBox();
+            this.Bt_Saida = new System.Windows.Forms.Button();
+            this.Tb_ListaEntrada = new System.Windows.Forms.TextBox();
+            this.Tb_ListaHistorico = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.Tb_Cadastrar = new System.Windows.Forms.Button();
+            this.Cb_TipoVeiculo = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.Lbl_NomeEstabelecimento = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 25);
+            this.label1.Location = new System.Drawing.Point(23, 78);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 16);
+            this.label1.Size = new System.Drawing.Size(62, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Placa:";
             // 
-            // label2
+            // Tb_Placas
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(398, 31);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Data Entrada:";
+            this.Tb_Placas.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Tb_Placas.Location = new System.Drawing.Point(113, 71);
+            this.Tb_Placas.Margin = new System.Windows.Forms.Padding(4);
+            this.Tb_Placas.Name = "Tb_Placas";
+            this.Tb_Placas.Size = new System.Drawing.Size(187, 27);
+            this.Tb_Placas.TabIndex = 3;
             // 
-            // label3
+            // Bt_Saida
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(739, 35);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 16);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Hora Entrada:";
+            this.Bt_Saida.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Bt_Saida.Location = new System.Drawing.Point(748, 130);
+            this.Bt_Saida.Margin = new System.Windows.Forms.Padding(4);
+            this.Bt_Saida.Name = "Bt_Saida";
+            this.Bt_Saida.Size = new System.Drawing.Size(244, 61);
+            this.Bt_Saida.TabIndex = 11;
+            this.Bt_Saida.Text = "Saída: Valor a Pagar";
+            this.Bt_Saida.UseVisualStyleBackColor = false;
+            this.Bt_Saida.Click += new System.EventHandler(this.Bt_Saida_Click);
             // 
-            // textBoxPlacas
+            // Tb_ListaEntrada
             // 
-            this.textBoxPlacas.Location = new System.Drawing.Point(139, 27);
-            this.textBoxPlacas.Name = "textBoxPlacas";
-            this.textBoxPlacas.Size = new System.Drawing.Size(206, 22);
-            this.textBoxPlacas.TabIndex = 3;
+            this.Tb_ListaEntrada.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Tb_ListaEntrada.Enabled = false;
+            this.Tb_ListaEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tb_ListaEntrada.Location = new System.Drawing.Point(27, 236);
+            this.Tb_ListaEntrada.Margin = new System.Windows.Forms.Padding(4);
+            this.Tb_ListaEntrada.Multiline = true;
+            this.Tb_ListaEntrada.Name = "Tb_ListaEntrada";
+            this.Tb_ListaEntrada.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.Tb_ListaEntrada.Size = new System.Drawing.Size(533, 264);
+            this.Tb_ListaEntrada.TabIndex = 13;
             // 
-            // textBoxDataEntrada
+            // Tb_ListaHistorico
             // 
-            this.textBoxDataEntrada.Location = new System.Drawing.Point(531, 31);
-            this.textBoxDataEntrada.Name = "textBoxDataEntrada";
-            this.textBoxDataEntrada.Size = new System.Drawing.Size(169, 22);
-            this.textBoxDataEntrada.TabIndex = 4;
-            // 
-            // textBoxHoraEntrada
-            // 
-            this.textBoxHoraEntrada.Location = new System.Drawing.Point(844, 29);
-            this.textBoxHoraEntrada.Name = "textBoxHoraEntrada";
-            this.textBoxHoraEntrada.Size = new System.Drawing.Size(167, 22);
-            this.textBoxHoraEntrada.TabIndex = 5;
-            // 
-            // textBoxDataSaida
-            // 
-            this.textBoxDataSaida.Location = new System.Drawing.Point(534, 76);
-            this.textBoxDataSaida.Name = "textBoxDataSaida";
-            this.textBoxDataSaida.Size = new System.Drawing.Size(166, 22);
-            this.textBoxDataSaida.TabIndex = 6;
-            // 
-            // textBoxHoraSaida
-            // 
-            this.textBoxHoraSaida.Location = new System.Drawing.Point(844, 76);
-            this.textBoxHoraSaida.Name = "textBoxHoraSaida";
-            this.textBoxHoraSaida.Size = new System.Drawing.Size(167, 22);
-            this.textBoxHoraSaida.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(398, 82);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 16);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Data Saída:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(752, 80);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 16);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Hora Saída:";
-            // 
-            // buttonCadastrar
-            // 
-            this.buttonCadastrar.Location = new System.Drawing.Point(70, 136);
-            this.buttonCadastrar.Name = "buttonCadastrar";
-            this.buttonCadastrar.Size = new System.Drawing.Size(186, 47);
-            this.buttonCadastrar.TabIndex = 10;
-            this.buttonCadastrar.Text = "Cadastrar";
-            this.buttonCadastrar.UseVisualStyleBackColor = true;
-            // 
-            // buttonRemover
-            // 
-            this.buttonRemover.Location = new System.Drawing.Point(308, 135);
-            this.buttonRemover.Name = "buttonRemover";
-            this.buttonRemover.Size = new System.Drawing.Size(178, 47);
-            this.buttonRemover.TabIndex = 11;
-            this.buttonRemover.Text = "Remover";
-            this.buttonRemover.UseVisualStyleBackColor = true;
-            // 
-            // buttonFecharConta
-            // 
-            this.buttonFecharConta.Location = new System.Drawing.Point(837, 137);
-            this.buttonFecharConta.Name = "buttonFecharConta";
-            this.buttonFecharConta.Size = new System.Drawing.Size(174, 46);
-            this.buttonFecharConta.TabIndex = 12;
-            this.buttonFecharConta.Text = "Fechar Conta";
-            this.buttonFecharConta.UseVisualStyleBackColor = true;
-            // 
-            // textBoxVeiculosPatio
-            // 
-            this.textBoxVeiculosPatio.Location = new System.Drawing.Point(79, 252);
-            this.textBoxVeiculosPatio.Multiline = true;
-            this.textBoxVeiculosPatio.Name = "textBoxVeiculosPatio";
-            this.textBoxVeiculosPatio.Size = new System.Drawing.Size(464, 255);
-            this.textBoxVeiculosPatio.TabIndex = 13;
-            // 
-            // textBoxListaVeiculosAtual
-            // 
-            this.textBoxListaVeiculosAtual.Location = new System.Drawing.Point(626, 259);
-            this.textBoxListaVeiculosAtual.Multiline = true;
-            this.textBoxListaVeiculosAtual.Name = "textBoxListaVeiculosAtual";
-            this.textBoxListaVeiculosAtual.Size = new System.Drawing.Size(419, 247);
-            this.textBoxListaVeiculosAtual.TabIndex = 14;
+            this.Tb_ListaHistorico.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Tb_ListaHistorico.Enabled = false;
+            this.Tb_ListaHistorico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tb_ListaHistorico.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.Tb_ListaHistorico.Location = new System.Drawing.Point(588, 236);
+            this.Tb_ListaHistorico.Margin = new System.Windows.Forms.Padding(4);
+            this.Tb_ListaHistorico.Multiline = true;
+            this.Tb_ListaHistorico.Name = "Tb_ListaHistorico";
+            this.Tb_ListaHistorico.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.Tb_ListaHistorico.Size = new System.Drawing.Size(525, 264);
+            this.Tb_ListaHistorico.TabIndex = 14;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(85, 219);
+            this.label6.Location = new System.Drawing.Point(23, 212);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(114, 16);
+            this.label6.Size = new System.Drawing.Size(162, 20);
             this.label6.TabIndex = 15;
             this.label6.Text = "Veículos no Pátio:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(640, 227);
+            this.label7.Location = new System.Drawing.Point(584, 212);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 16);
+            this.label7.Size = new System.Drawing.Size(170, 20);
             this.label7.TabIndex = 16;
-            this.label7.Text = "Lista Veículos Atual:";
+            this.label7.Text = "Histórico Veículos:";
+            // 
+            // Tb_Cadastrar
+            // 
+            this.Tb_Cadastrar.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Tb_Cadastrar.Location = new System.Drawing.Point(183, 130);
+            this.Tb_Cadastrar.Name = "Tb_Cadastrar";
+            this.Tb_Cadastrar.Size = new System.Drawing.Size(244, 61);
+            this.Tb_Cadastrar.TabIndex = 18;
+            this.Tb_Cadastrar.Text = "Entrada";
+            this.Tb_Cadastrar.UseVisualStyleBackColor = false;
+            this.Tb_Cadastrar.Click += new System.EventHandler(this.Tb_Cadastrar_Click);
+            // 
+            // Cb_TipoVeiculo
+            // 
+            this.Cb_TipoVeiculo.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Cb_TipoVeiculo.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.Cb_TipoVeiculo.FormattingEnabled = true;
+            this.Cb_TipoVeiculo.Location = new System.Drawing.Point(487, 70);
+            this.Cb_TipoVeiculo.Name = "Cb_TipoVeiculo";
+            this.Cb_TipoVeiculo.Size = new System.Drawing.Size(196, 28);
+            this.Cb_TipoVeiculo.TabIndex = 22;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(341, 78);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(119, 20);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "Tipo Veículo:";
+            // 
+            // Lbl_NomeEstabelecimento
+            // 
+            this.Lbl_NomeEstabelecimento.AutoSize = true;
+            this.Lbl_NomeEstabelecimento.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_NomeEstabelecimento.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.Lbl_NomeEstabelecimento.Location = new System.Drawing.Point(376, 9);
+            this.Lbl_NomeEstabelecimento.Name = "Lbl_NomeEstabelecimento";
+            this.Lbl_NomeEstabelecimento.Size = new System.Drawing.Size(374, 32);
+            this.Lbl_NomeEstabelecimento.TabIndex = 24;
+            this.Lbl_NomeEstabelecimento.Text = "Nome do Establecimento";
+            this.Lbl_NomeEstabelecimento.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // FormGaragem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1098, 547);
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1144, 537);
+            this.Controls.Add(this.Lbl_NomeEstabelecimento);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.Cb_TipoVeiculo);
+            this.Controls.Add(this.Tb_Cadastrar);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBoxListaVeiculosAtual);
-            this.Controls.Add(this.textBoxVeiculosPatio);
-            this.Controls.Add(this.buttonFecharConta);
-            this.Controls.Add(this.buttonRemover);
-            this.Controls.Add(this.buttonCadastrar);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBoxHoraSaida);
-            this.Controls.Add(this.textBoxDataSaida);
-            this.Controls.Add(this.textBoxHoraEntrada);
-            this.Controls.Add(this.textBoxDataEntrada);
-            this.Controls.Add(this.textBoxPlacas);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.Tb_ListaHistorico);
+            this.Controls.Add(this.Tb_ListaEntrada);
+            this.Controls.Add(this.Bt_Saida);
+            this.Controls.Add(this.Tb_Placas);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormGaragem";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Garagem: Estacionamento para Veículos";
-            this.Click += new System.EventHandler(this.FormGaragem_Click);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormGaragem_FormClosing);
+            this.Load += new System.EventHandler(this.FormGaragem_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,22 +195,16 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBoxPlacas;
-        private System.Windows.Forms.TextBox textBoxDataEntrada;
-        private System.Windows.Forms.TextBox textBoxHoraEntrada;
-        private System.Windows.Forms.TextBox textBoxDataSaida;
-        private System.Windows.Forms.TextBox textBoxHoraSaida;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button buttonCadastrar;
-        private System.Windows.Forms.Button buttonRemover;
-        private System.Windows.Forms.Button buttonFecharConta;
-        private System.Windows.Forms.TextBox textBoxVeiculosPatio;
-        private System.Windows.Forms.TextBox textBoxListaVeiculosAtual;
+        private System.Windows.Forms.TextBox Tb_Placas;
+        private System.Windows.Forms.Button Bt_Saida;
+        private System.Windows.Forms.TextBox Tb_ListaEntrada;
+        private System.Windows.Forms.TextBox Tb_ListaHistorico;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button Tb_Cadastrar;
+        private System.Windows.Forms.ComboBox Cb_TipoVeiculo;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label Lbl_NomeEstabelecimento;
     }
 }
 

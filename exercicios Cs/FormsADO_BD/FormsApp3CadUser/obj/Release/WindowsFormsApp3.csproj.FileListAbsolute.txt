@@ -1,0 +1,33 @@
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3\bin\Release\WindowsFormsApp3.exe.config
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3\bin\Release\WindowsFormsApp3.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3\bin\Release\WindowsFormsApp3.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3\obj\Release\WindowsFormsApp3.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3\obj\Release\WindowsFormsApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3\obj\Release\WindowsFormsApp3.FormularioCadastro.resources
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3\obj\Release\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3\obj\Release\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3\obj\Release\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3\obj\Release\WindowsFormsApp3.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3\obj\Release\WindowsFormsApp3.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.FormularioCadastro.resources
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3 - Exercício CadastroUser\bin\Release\WindowsFormsApp3.exe.config
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3 - Exercício CadastroUser\bin\Release\WindowsFormsApp3.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios_cs\WindowsForm\WindowsFormsApp3 - Exercício CadastroUser\bin\Release\WindowsFormsApp3.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\WindowsFormsADO_BD\WindowsFormsApp3 - Exercício CadastroUser\bin\Release\WindowsFormsApp3.exe.config
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\WindowsFormsADO_BD\WindowsFormsApp3 - Exercício CadastroUser\bin\Release\WindowsFormsApp3.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\WindowsFormsADO_BD\WindowsFormsApp3 - Exercício CadastroUser\bin\Release\WindowsFormsApp3.pdb
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\WindowsFormsADO_BD\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.csproj.AssemblyReference.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\WindowsFormsADO_BD\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\WindowsFormsADO_BD\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.FormularioCadastro.resources
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\WindowsFormsADO_BD\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\WindowsFormsADO_BD\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\WindowsFormsADO_BD\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\WindowsFormsADO_BD\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.exe
+C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\WindowsFormsADO_BD\WindowsFormsApp3 - Exercício CadastroUser\obj\Release\WindowsFormsApp3.pdb
