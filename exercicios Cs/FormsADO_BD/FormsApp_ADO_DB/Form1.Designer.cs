@@ -194,7 +194,6 @@
             this.Controls.Add(this.button_Conectar);
             this.Name = "Form1";
             this.Text = "Gerenciador de medidas glicêmicas";
-
             this.ResumeLayout(false);
             this.PerformLayout();
 

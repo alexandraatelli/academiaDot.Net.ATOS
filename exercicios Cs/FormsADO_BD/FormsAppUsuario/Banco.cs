@@ -12,15 +12,13 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsAppUsuario
 {
-    //string conexaoString = "Data Source=127.0.0.1; Initial Catalog=usuario_db; User ID=sa; password='1q2w3e4r@#$';language=Portuguese";
-
     public class Banco
     {
-        string conexaoString = "Data Source=127.0.0.1; Initial Catalog=usuario_db; User ID=sa; password='1q2w3e4r@#$';language=Portuguese";
+        private string conexaoString = "Data Source=127.0.0.1;Initial Catalog=usuario_db; User ID=sa; password='1q2w3e4r@#$';language=Portuguese";
 
         private SqlConnection cn;
 
-        private void Conexao()//vincular a string com o cn, bm inicia o CN
+        private void Conexao()//vincular a string com o cn, bm inicia o cn
         {
             cn = new SqlConnection(conexaoString);
         }

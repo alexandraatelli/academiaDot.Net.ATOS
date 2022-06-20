@@ -129,7 +129,7 @@
             // email
             // 
             this.email.Text = "email";
-            this.email.Width = 100;
+            this.email.Width = 150;
             // 
             // FormUsuario
             // 

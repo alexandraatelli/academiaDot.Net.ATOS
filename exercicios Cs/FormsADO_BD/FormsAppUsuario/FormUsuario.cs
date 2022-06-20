@@ -13,10 +13,10 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsAppUsuario
 {
-    //private string conexaoString = "Data Source=127.0.0.1; Initial Catalog=usuario_db; User ID=sa; password='1q2w3e4r@#$';language=Portuguese";
+    
     public partial class FormUsuario : Form
     {
-        string conexaoString = "Data Source=127.0.0.1; Initial Catalog=usuario_db; User ID=sa; password='1q2w3e4r@#$';language=Portuguese";
+       private string conexaoString = "Data Source=127.0.0.1;Initial Catalog=usuario_db; User ID=sa; password='1q2w3e4r@#$';language=Portuguese";
 
         public FormUsuario()
         {
@@ -40,19 +40,19 @@ namespace WindowsFormsAppUsuario
             try
             {
 
-                string sqlTexto = "SELECT  idUsuario, nomeCompleto, email  from Usuario";
+                string sqlTexto = "SELECT  id_usuario, nomeCompleto, email from Usuario";
                 SqlCommand comando = new SqlCommand(sqlTexto, conexao);
 
                 listView_Usuario.Items.Clear();
                 SqlDataReader leitor = comando.ExecuteReader();
                 int i = 0;
                 while (leitor.Read())
-                {
-                    listView_Usuario.Items.Add(leitor["id_usuario"].ToString());
-                    listView_Usuario.Items[i].SubItems.Add(leitor["nomeCompleto"].ToString());
-                    listView_Usuario.Items[i].SubItems.Add(leitor["email"].ToString());
-                    i++;
-                }
+                 {
+                     listView_Usuario.Items.Add(leitor["id_usuario"].ToString());
+                     listView_Usuario.Items[i].SubItems.Add(leitor["nomeCompleto"].ToString());
+                     listView_Usuario.Items[i].SubItems.Add(leitor["email"].ToString());
+                     i++;
+                 }
                 conexao.Close();
             }
             catch (Exception e)
