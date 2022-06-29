@@ -41,11 +41,11 @@
             this.tbSenha = new System.Windows.Forms.TextBox();
             this.tbCadastrar = new System.Windows.Forms.Button();
             this.tbCancelar = new System.Windows.Forms.Button();
-            this.statusAtivOrInat = new System.Windows.Forms.ComboBox();
+            this.Cb_statusAtivOrInat = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.maskedCpf = new System.Windows.Forms.MaskedTextBox();
             this.maskedFone = new System.Windows.Forms.MaskedTextBox();
-            this.admUser = new System.Windows.Forms.ComboBox();
+            this.Cb_admUser = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -189,21 +189,21 @@
             this.tbCancelar.UseVisualStyleBackColor = false;
             this.tbCancelar.Click += new System.EventHandler(this.tbCancelar_Click);
             // 
-            // statusAtivOrInat
+            // Cb_statusAtivOrInat
             // 
-            this.statusAtivOrInat.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.statusAtivOrInat.DropDownHeight = 100;
-            this.statusAtivOrInat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statusAtivOrInat.FormattingEnabled = true;
-            this.statusAtivOrInat.IntegralHeight = false;
-            this.statusAtivOrInat.Items.AddRange(new object[] {
+            this.Cb_statusAtivOrInat.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.Cb_statusAtivOrInat.DropDownHeight = 100;
+            this.Cb_statusAtivOrInat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cb_statusAtivOrInat.FormattingEnabled = true;
+            this.Cb_statusAtivOrInat.IntegralHeight = false;
+            this.Cb_statusAtivOrInat.Items.AddRange(new object[] {
             "Ativo",
             "Inativo"});
-            this.statusAtivOrInat.Location = new System.Drawing.Point(313, 104);
-            this.statusAtivOrInat.Name = "statusAtivOrInat";
-            this.statusAtivOrInat.Size = new System.Drawing.Size(157, 28);
-            this.statusAtivOrInat.Sorted = true;
-            this.statusAtivOrInat.TabIndex = 24;
+            this.Cb_statusAtivOrInat.Location = new System.Drawing.Point(313, 104);
+            this.Cb_statusAtivOrInat.Name = "Cb_statusAtivOrInat";
+            this.Cb_statusAtivOrInat.Size = new System.Drawing.Size(157, 28);
+            this.Cb_statusAtivOrInat.Sorted = true;
+            this.Cb_statusAtivOrInat.TabIndex = 24;
             // 
             // panel1
             // 
@@ -238,22 +238,21 @@
             this.maskedFone.TabIndex = 29;
             this.maskedFone.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
-            // admUser
+            // Cb_admUser
             // 
-            this.admUser.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.admUser.DropDownHeight = 100;
-            this.admUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.admUser.FormattingEnabled = true;
-            this.admUser.IntegralHeight = false;
-            this.admUser.Items.AddRange(new object[] {
+            this.Cb_admUser.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.Cb_admUser.DropDownHeight = 100;
+            this.Cb_admUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cb_admUser.FormattingEnabled = true;
+            this.Cb_admUser.IntegralHeight = false;
+            this.Cb_admUser.Items.AddRange(new object[] {
             "Administrador",
             "Usuário"});
-            this.admUser.Location = new System.Drawing.Point(313, 49);
-            this.admUser.Name = "admUser";
-            this.admUser.Size = new System.Drawing.Size(157, 28);
-            this.admUser.Sorted = true;
-            this.admUser.TabIndex = 30;
-
+            this.Cb_admUser.Location = new System.Drawing.Point(313, 49);
+            this.Cb_admUser.Name = "Cb_admUser";
+            this.Cb_admUser.Size = new System.Drawing.Size(157, 28);
+            this.Cb_admUser.Sorted = true;
+            this.Cb_admUser.TabIndex = 30;
             // 
             // FormularioCadastro
             // 
@@ -262,11 +261,11 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1093, 554);
-            this.Controls.Add(this.admUser);
+            this.Controls.Add(this.Cb_admUser);
             this.Controls.Add(this.maskedFone);
             this.Controls.Add(this.maskedCpf);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.statusAtivOrInat);
+            this.Controls.Add(this.Cb_statusAtivOrInat);
             this.Controls.Add(this.tbSenha);
             this.Controls.Add(this.tbLogin);
             this.Controls.Add(this.tbNome);
@@ -304,11 +303,11 @@
         private System.Windows.Forms.TextBox tbSenha;
         private System.Windows.Forms.Button tbCadastrar;
         private System.Windows.Forms.Button tbCancelar;
-        private System.Windows.Forms.ComboBox statusAtivOrInat;
+        private System.Windows.Forms.ComboBox Cb_statusAtivOrInat;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.MaskedTextBox maskedCpf;
         private System.Windows.Forms.MaskedTextBox maskedFone;
-        private System.Windows.Forms.ComboBox admUser;
+        private System.Windows.Forms.ComboBox Cb_admUser;
     }
 }
 

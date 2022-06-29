@@ -47,8 +47,8 @@ namespace WindowsFormsApp3
         }
         private void tbCancelar_Click(object sender, EventArgs e)
         {
-            admUser.ResetText();
-            statusAtivOrInat.ResetText();
+            Cb_admUser.ResetText();
+            Cb_statusAtivOrInat.ResetText();
             tbNome.Clear();
             maskedFone.Clear();
             maskedCpf.Clear();
@@ -57,36 +57,11 @@ namespace WindowsFormsApp3
         }
         private void tbCadastrar_Click_1(object sender, EventArgs e)
         {
-            // If para escolha da opção desejada:
-
-            string admUser = "";
-
-            if (admUser == "Administrador")
-            {
-                MessageBox.Show("Tipo de Acesso: Administrador!");
-            }
-            if (admUser == "Usuário")
-            {
-                MessageBox.Show("Tipo de Acesso: Usuário!");
-            }
-
-            string statusAtivOrInat = "";
-
-            if (statusAtivOrInat == "Ativo")
-            {
-                MessageBox.Show("Status Ativo!");
-            }
-            if (statusAtivOrInat == "Inativo")
-            {
-                MessageBox.Show("Status Inativo!");
-            }
-
-            Pessoas usuario = new Pessoas(admUser, statusAtivOrInat,
+                Pessoas usuario = new Pessoas(Cb_admUser.Text, Cb_statusAtivOrInat.Text,
                 tbNome.Text, maskedFone.Text, maskedCpf.Text, tbLogin.Text,
                 tbSenha.Text);
 
             usuario.MostrarDadosCadastro();
-
         }
     }
 }

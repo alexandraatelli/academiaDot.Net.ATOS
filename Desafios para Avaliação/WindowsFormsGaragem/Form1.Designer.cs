@@ -139,6 +139,7 @@
             this.Cb_TipoVeiculo.Name = "Cb_TipoVeiculo";
             this.Cb_TipoVeiculo.Size = new System.Drawing.Size(196, 28);
             this.Cb_TipoVeiculo.TabIndex = 22;
+  
             // 
             // label4
             // 

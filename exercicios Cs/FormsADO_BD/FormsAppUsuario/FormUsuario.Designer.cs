@@ -36,9 +36,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.listView_Usuario = new System.Windows.Forms.ListView();
-            this.id_usuario = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.nomeCompleto = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.email = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // Bt_Conectar
@@ -69,7 +69,6 @@
             this.Bt_Remover.TabIndex = 3;
             this.Bt_Remover.Text = "Remover";
             this.Bt_Remover.UseVisualStyleBackColor = true;
-            this.Bt_Remover.Click += new System.EventHandler(this.Bt_Remover_Click);
             // 
             // Tb_id_usuario
             // 
@@ -106,30 +105,28 @@
             // listView_Usuario
             // 
             this.listView_Usuario.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.id_usuario,
-            this.nomeCompleto,
-            this.email});
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3});
             this.listView_Usuario.HideSelection = false;
             this.listView_Usuario.Location = new System.Drawing.Point(28, 12);
             this.listView_Usuario.Name = "listView_Usuario";
             this.listView_Usuario.Size = new System.Drawing.Size(740, 224);
             this.listView_Usuario.TabIndex = 8;
             this.listView_Usuario.UseCompatibleStateImageBehavior = false;
+            this.listView_Usuario.View = System.Windows.Forms.View.Details;
             // 
-            // id_usuario
+            // columnHeader1
             // 
-            this.id_usuario.Text = "id_usuario";
-            this.id_usuario.Width = 20;
+            this.columnHeader1.Text = "id_usuario";
             // 
-            // nomeCompleto
+            // columnHeader2
             // 
-            this.nomeCompleto.Text = "nomeCompleto";
-            this.nomeCompleto.Width = 150;
+            this.columnHeader2.Text = "nomeCompleto";
             // 
-            // email
+            // columnHeader3
             // 
-            this.email.Text = "email";
-            this.email.Width = 150;
+            this.columnHeader3.Text = "email";
             // 
             // FormUsuario
             // 
@@ -162,9 +159,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListView listView_Usuario;
-        private System.Windows.Forms.ColumnHeader id_usuario;
-        private System.Windows.Forms.ColumnHeader nomeCompleto;
-        private System.Windows.Forms.ColumnHeader email;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
     }
 }
 

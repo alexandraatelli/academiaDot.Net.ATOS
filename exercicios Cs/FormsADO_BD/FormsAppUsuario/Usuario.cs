@@ -15,22 +15,17 @@ namespace WindowsFormsAppUsuario
 {
     public class Usuario
     {
-        //Atributos
-        int id_usuario;
-        string nomeCompleto;
-        string email;
+        public int id_usuario;
+        public string nomeCompleto;
+        public string email;
 
-        //Construtor
-        public Usuario(int id_usuario, string nomeCompleto, string email)
+        public Usuario(int id_usuario, string nomeCompleto)
         {
             this.id_usuario = id_usuario;
-            this.nomeCompleto = nomeCompleto;
-            this.email = email;
+            this.NomeCompleto = nomeCompleto;
+            this.Email = email;
         }
 
-        public int Id_Usuario { get => id_usuario; set => id_usuario = value; }
-        public string NomeCompleto { get => nomeCompleto; set => nomeCompleto = value; }
-        
         public bool GravarUsuario()
         {
             Banco banco = new Banco();
@@ -40,7 +35,7 @@ namespace WindowsFormsAppUsuario
             command.Connection = cn;
             command.Transaction = tran;
             command.CommandType = CommandType.Text;
-            command.CommandText = "insert into Usuario values (@id_usuario, @nomeCompleto, @email);";
+            command.CommandText = "insert into usuario values (@id_usuario, @nomeCompleto, @email);";
             command.Parameters.Add("@id_usuario", SqlDbType.Int);
             command.Parameters.Add("@nomeCompleto", SqlDbType.VarChar);
             command.Parameters.Add("@email", SqlDbType.VarChar);
@@ -49,7 +44,7 @@ namespace WindowsFormsAppUsuario
             string[] vetorDados = this.nomeCompleto.Split(' ');
             this.email = vetorDados[vetorDados.Length - 1] + "." + vetorDados[0] + "@ufn.edu.br";
             this.email = this.email.ToLower();
-            command.Parameters[2].Value = this.email; 
+            command.Parameters[2].Value = this.email;
 
             try
             {
@@ -68,17 +63,18 @@ namespace WindowsFormsAppUsuario
             }
         }
 
-        private void GerarEmail()
+
+        public void GerarEmail()
         {
             string[] vetorDados = this.nomeCompleto.Split(' ');
             this.email = vetorDados[vetorDados.Length - 1] + "." + vetorDados[0] + "@ufn.edu.br";
             this.email = this.email.ToLower();
         }
 
-        //construtor usado no cadastro de um usuario
+        //Construtor usado no cadastro de um usuário
         public Usuario(string nomeCompleto)
         {
-            this.nomeCompleto = nomeCompleto;
+            this.NomeCompleto = nomeCompleto;
             this.GerarEmail();
         }
 
@@ -87,7 +83,9 @@ namespace WindowsFormsAppUsuario
         {
             this.nomeCompleto = nomeCompleto;
             this.email = email;
-            GravarUsuario();
         }
+             
+        public string NomeCompleto { get => nomeCompleto; set => nomeCompleto = value; }
+        public string Email { get => email; set => email = value; }
     }
 }

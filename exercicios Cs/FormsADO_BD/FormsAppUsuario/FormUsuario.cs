@@ -13,10 +13,10 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsAppUsuario
 {
-    
+
     public partial class FormUsuario : Form
     {
-       private string conexaoString = "Data Source=127.0.0.1;Initial Catalog=usuario_db; User ID=sa; password='1q2w3e4r@#$';language=Portuguese";
+        private string conexaoString = "Data Source=127.0.0.1;Initial Catalog=usuario_db; User ID=sa; password='1q2w3e4r@#$';language=Portuguese";
 
         public FormUsuario()
         {
@@ -31,7 +31,7 @@ namespace WindowsFormsAppUsuario
         private void LimparTextBox()
         {
             Tb_id_usuario.Text = "";
-           Tb_nomeCompleto.Text = "";
+            Tb_nomeCompleto.Text = "";
         }
         private void CarregarListView()
         {
@@ -40,19 +40,19 @@ namespace WindowsFormsAppUsuario
             try
             {
 
-                string sqlTexto = "SELECT  id_usuario, nomeCompleto, email from Usuario";
+                string sqlTexto = "SELECT  id_usuario, nomeCompleto, email from usuario";
                 SqlCommand comando = new SqlCommand(sqlTexto, conexao);
 
                 listView_Usuario.Items.Clear();
                 SqlDataReader leitor = comando.ExecuteReader();
                 int i = 0;
                 while (leitor.Read())
-                 {
-                     listView_Usuario.Items.Add(leitor["id_usuario"].ToString());
-                     listView_Usuario.Items[i].SubItems.Add(leitor["nomeCompleto"].ToString());
-                     listView_Usuario.Items[i].SubItems.Add(leitor["email"].ToString());
-                     i++;
-                 }
+                {
+                    listView_Usuario.Items.Add(leitor["id_usuario"].ToString());
+                    listView_Usuario.Items[i].SubItems.Add(leitor["nomeCompleto"].ToString());
+                    listView_Usuario.Items[i].SubItems.Add(leitor["email"].ToString());
+                    i++;
+                }
                 conexao.Close();
             }
             catch (Exception e)
@@ -62,16 +62,21 @@ namespace WindowsFormsAppUsuario
         }
         private void Bt_Conectar_Click(object sender, EventArgs e)
         {
-            CarregarListView();//Método conecta e carrega a ListView
+            CarregarListView();
             Bt_Conectar.Enabled = false;
         }
 
         private void Bt_Adicionar_Click(object sender, EventArgs e)
         {
-            Usuario user = new Usuario(int.Parse(Tb_id_usuario.Text), Tb_nomeCompleto.Text, email.Text);
+            Usuario user = new Usuario(int.Parse(Tb_id_usuario.Text), Tb_nomeCompleto.Text);
+
+            Tb_id_usuario.Clear();
+            Tb_nomeCompleto.Clear();
+
             user.GravarUsuario();
             CarregarListView();
         }
+
         private void Bt_Remover_Click(object sender, EventArgs e)
         {
             SqlConnection conexao = new SqlConnection(conexaoString);
@@ -81,7 +86,7 @@ namespace WindowsFormsAppUsuario
                 int id_usuario = int.Parse(listView_Usuario.SelectedItems[0].Text);
 
                 //gerar sentenças SQL
-                string sqlTexto = "DELETE from Usuario Where idUsuario = @idUsuario";
+                string sqlTexto = "DELETE from usuario Where id_usuario = @id_usuario";
 
                 SqlCommand comando = new SqlCommand(sqlTexto, conexao);
                 comando.Parameters.AddWithValue("@id_usuario", id_usuario);
@@ -96,13 +101,9 @@ namespace WindowsFormsAppUsuario
             {
                 MessageBox.Show("Remoção não realizada, tente novamente." + erro);
             }
-
             conexao.Close();
 
             CarregarListView();
         }
     }
 }
-
-
-
