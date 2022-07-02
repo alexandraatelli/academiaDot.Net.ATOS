@@ -1,0 +1,11 @@
+C:\Users\pc\Desktop\AcademiaDotNet\Back-End\Junho\SQL\29062022\CriptografiaAssimetrica\bin\Debug\CriptografiaAssimetrica.exe.config
+C:\Users\pc\Desktop\AcademiaDotNet\Back-End\Junho\SQL\29062022\CriptografiaAssimetrica\bin\Debug\CriptografiaAssimetrica.exe
+C:\Users\pc\Desktop\AcademiaDotNet\Back-End\Junho\SQL\29062022\CriptografiaAssimetrica\bin\Debug\CriptografiaAssimetrica.pdb
+C:\Users\pc\Desktop\AcademiaDotNet\Back-End\Junho\SQL\29062022\CriptografiaAssimetrica\obj\Debug\CriptografiaAssimetrica.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\AcademiaDotNet\Back-End\Junho\SQL\29062022\CriptografiaAssimetrica\obj\Debug\CriptografiaAssimetrica.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc\Desktop\AcademiaDotNet\Back-End\Junho\SQL\29062022\CriptografiaAssimetrica\obj\Debug\CriptografiaAssimetrica.Form1.resources
+C:\Users\pc\Desktop\AcademiaDotNet\Back-End\Junho\SQL\29062022\CriptografiaAssimetrica\obj\Debug\CriptografiaAssimetrica.Properties.Resources.resources
+C:\Users\pc\Desktop\AcademiaDotNet\Back-End\Junho\SQL\29062022\CriptografiaAssimetrica\obj\Debug\CriptografiaAssimetrica.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\AcademiaDotNet\Back-End\Junho\SQL\29062022\CriptografiaAssimetrica\obj\Debug\CriptografiaAssimetrica.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\AcademiaDotNet\Back-End\Junho\SQL\29062022\CriptografiaAssimetrica\obj\Debug\CriptografiaAssimetrica.exe
+C:\Users\pc\Desktop\AcademiaDotNet\Back-End\Junho\SQL\29062022\CriptografiaAssimetrica\obj\Debug\CriptografiaAssimetrica.pdb
