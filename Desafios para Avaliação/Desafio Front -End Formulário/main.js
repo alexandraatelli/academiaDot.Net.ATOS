@@ -31,7 +31,7 @@ function processaDocumento() {
     document.getElementById('t-aceite').innerHTML = document.querySelector('input[name=informacao]:checked').value
 
 
-    //Limpando
+    /*Limpando
     document.getElementById('nome').value = '';
     document.getElementById('sobrenome').value = '';
     document.getElementById('email').value = '';
@@ -45,7 +45,7 @@ function processaDocumento() {
     document.getElementById('estado').value = '';
     document.getElementById('github').value = '';
     document.getElementById('academia').value = '';
-    document.getElementById('professor').value = '';
+    document.getElementById('professor').value = '';*/
 
 
     document.getElementById('termos').checked = false;

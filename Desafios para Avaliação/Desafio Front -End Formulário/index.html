@@ -24,13 +24,13 @@
                 <div class="row">
                     <div class="col mb-2">
                         <label for="nome" class="form-label">Nome <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control maiusculo" id="nome" placeholder="primeiro nome"
-                            maxlength="30" required>
+                        <input type="text" class="form-control maiusculo" id="nome" pattern="^[A-Za-z]+$"
+                            placeholder="primeiro nome" maxlength="30" required>
                     </div>
                     <div class="col mb-2">
                         <label for="sobrenome" class="form-label">Sobrenome <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control maiusculo" id="sobrenome" placeholder="último nome"
-                            maxlength="20" required>
+                        <input type="text" class="form-control maiusculo" id="sobrenome" pattern="^[A-Za-z]+$"
+                            placeholder="último nome" maxlength="20" required>
                     </div>
                 </div>
             </div>
@@ -39,17 +39,17 @@
                 <div class="row">
                     <div class="col mb-2">
                         <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" id="email" placeholder="name@example.com" required> >
+                        <input type="text" class="form-control" id="email" placeholder="name@example.com" required>
                     </div>
                     <div class="col mb-2">
-                        <label for="login" class="form-label">Login</label>
+                        <label for="login" class="form-label">Login<span class="text-danger">*</span></label>
                         <input type="text" class="form-control" id="login" readonly
                             placeholder="gerado automáticamente">
                     </div>
                     <div class="col mb-2">
                         <label for="senha" class="form-label">Senha <span class="text-danger">*</span></label>
                         <input type="password" class="form-control" id="senha"
-                            placeholder="a deve conter letras e números">
+                            placeholder="sugerimos conter letras e números para senha forte">
                     </div>
                 </div>
             </div>
@@ -57,17 +57,16 @@
             <div class="col-md-12 mt-6">
                 <div class="row">
                     <div class="col mb-2">
-                        <label for="cep" class="form-label">Cep <span class="text-danger">*</span></label>
+                        <label for="cep" class="form-label">Cep</label>
                         <input type="text" class="form-control" id="cep" value="" size="10" maxlength="9"
                             onblur="pesquisacep(this.value);" placeholder="Digite seu CEP">
                     </div>
                     <div class="col mb-2">
                         <label for="endereco" class="form-label">Endereço</label>
-                        <input type="text" class="form-control" id="endereco" required>
+                        <input type="text" class="form-control" id="endereco">
                     </div>
                     <div class="col mb-2">
-                        <label for="complemento" class="form-label">Complemento <span
-                                class="text-danger">*</span></label>
+                        <label for="complemento" class="form-label">Complemento</label>
                         <input type="text" class="form-control" id="complemento"
                             placeholder="apto, bloco, ponto referência">
                     </div>
@@ -77,15 +76,15 @@
             <div class="col-md-12 mt-6">
                 <div class="row">
                     <div class="col mb-2">
-                        <label for="bairro" class="form-label">Bairro <span class="text-danger">*</span></label>
+                        <label for="bairro" class="form-label">Bairro</label>
                         <input type="text" class="form-control" id="bairro">
                     </div>
                     <div class="col mb-2">
-                        <label for="cidade" class="form-label">Cidade <span class="text-danger">*</span></label>
+                        <label for="cidade" class="form-label">Cidade</label>
                         <input type="text" class="form-control" id="cidade">
                     </div>
                     <div class="col mb-2">
-                        <label for="estado" class="form-label">Estado <span class="text-danger">*</span></label>
+                        <label for="estado" class="form-label">Estado</label>
                         <input type="text" class="form-control" id="estado">
                     </div>
                 </div>
@@ -104,20 +103,20 @@
                         </div>
                     </div>
                     <div class="col mb-2">
-                        <label for="academia" class="form-label">Academia</label>
-                        <select id="academia" class="form-select">
-                            <option selected>selecione...</option>
-                            <option>Academia Java</option>
-                            <option>Academia Dot.NET</option>
+                        <label for="academia" class="form-label">Academia<span class="text-danger">*</span></label>
+                        <select class="form-select" id="academia" required>
+                            <option value="">Selecione...</option>
+                            <option value="dot-net">Academia Atos - .NET</option>
+                            <option value="java">Academia Atos - Java</option>
                         </select>
                     </div>
                     <div class="col mb-2">
-                        <label for="professor" class="form-label">Professor</label>
-                        <select id="professor" class="form-select">
-                            <option selected>selecione...</option>
-                            <option>Alexandre Zamberlan - Back-End</option>
-                            <option>Deivison Pasa - Front-End></option>
-                            <option>Ricardo Frohlich - Back-End</option>
+                        <label for="professor" class="form-label">Professor<span class="text-danger">*</span></label>
+                        <select class="form-select" id="professor" required>
+                            <option value="">...</option>
+                            <option value="1">Alexandre Zamberlan - Back-End</option>
+                            <option value="2">Deivison Pasa - Front-End></option>
+                            <option value="3">Ricardo Frohlich - Back-End</option>
                         </select>
                     </div>
                 </div>
@@ -164,6 +163,7 @@
             </div>
 
             <button class="w-100 btn btn-primary my-4" type="submit">Gravar as informações registradas</button>
+            <button class="w-100 btn btn-primary my-4" type="reset">Limpar os dados registrados</button>
 
             <table class="table">
                 <h5 class="mb-3 fs-5">Validação dos dados registrados:</h5>
