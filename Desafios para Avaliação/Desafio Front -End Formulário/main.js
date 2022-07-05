@@ -2,15 +2,68 @@
 document.getElementById('nome').addEventListener('keyup', gerarLogin);
 document.getElementById('sobrenome').addEventListener('keyup', gerarLogin);
 
+//gera login automaticamente com o nome e sobrenome registrados
+function gerarLogin() {
+    const nome = document.getElementById('nome').value;
+    const sobrenome = document.getElementById('sobrenome').value;
+    const login = nome.replace(/ /g, '') + "." + sobrenome.replace(/ /g, '');
+    document.getElementById('login').value = login.toLowerCase();
+}
+
+function CheckPassword(senha) {
+    //alert(senha);
+    if (/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!$*&@#])[0-9a-zA-Z!$*&@#]{8,}$/.test(senha)) {
+        return true;
+    }
+    else {
+        alert('A senha é fraca! Deve conter mínimo 8 caracteres com: ao menos uma letra minúscula, ao menos uma letra maiúscula, ao menos um caractere especial');
+        return false;
+    }
+}
+
+try {
+    document.getElementById('cep').addEventListener('focusout', async function (e) {
+        //let data = await fetch('https://viacep.com.br/ws/${cep.value}/json/');
+        // let data = await fetch(`https://viacep.com.br/ws/${cep.value}/json/`);
+        let dados = await fetch('https://viacep.com.br/ws/' + cep.value + '/json/');
+        let vcep = await dados.json();
+
+        if (vcep.erro == 'true') {
+            alert("Cep inválido!");
+        }
+        else {
+
+            document.getElementById('endereco').value = (vcep.logradouro);
+            document.getElementById('complemento').value = (vcep.complemento);
+            document.getElementById('bairro').value = (vcep.bairro);
+            document.getElementById('cidade').value = (vcep.localidade);
+            document.getElementById('estado').value = (vcep.uf);
+        }
+    });
+}
+catch (err) {
+    window.alert("Site fora do ar!");
+}
+
+//Grava os dados registrados - submit
 document.getElementById('formulario').addEventListener('submit', function (form) {
     form.preventDefault();
     console.log('Submetido');
+    document.getElementById('table').classList.remove('d-none');
+    document.getElementById('cabValidacao').classList.remove('d-none');
     processaDocumento();
     window.alert("Dados Enviados");
+
 });
 
 function processaDocumento() {
-    //Copiando os valores para a tabela
+
+    //obrigatorio a aceitação dos termos para gravar os dados registrados
+    document.getElementById('termos').checked = false;
+    x = document.getElementsByName('informacao');
+    x[0].checked = true;
+
+    //Copiando os valores registrados para a tabela Validação dos Dados Registrados no momento do submit
     document.getElementById('t-nome').innerHTML = document.getElementById('nome').value;
     document.getElementById('t-sobrenome').innerHTML = document.getElementById('sobrenome').value;
     document.getElementById('t-email').innerHTML = document.getElementById('email').value;
@@ -30,118 +83,21 @@ function processaDocumento() {
     document.getElementById('t-termos').innerHTML = document.getElementById('termos').value.replace('on', 'Sim');
     document.getElementById('t-aceite').innerHTML = document.querySelector('input[name=informacao]:checked').value
 
-
-    /*Limpando
+    //Limpando os dados registrados no momento do submit
     document.getElementById('nome').value = '';
     document.getElementById('sobrenome').value = '';
     document.getElementById('email').value = '';
     document.getElementById('login').value = '';
     document.getElementById('senha').value = '';
-    document.getElementById('nome').value = '';
     document.getElementById('cep').value = '';
     document.getElementById('endereco').value = '';
     document.getElementById('complemento').value = '';
+    document.getElementById('bairro').value = '';
     document.getElementById('cidade').value = '';
     document.getElementById('estado').value = '';
     document.getElementById('github').value = '';
     document.getElementById('academia').value = '';
-    document.getElementById('professor').value = '';*/
-
-
-    document.getElementById('termos').checked = false;
-    x = document.getElementsByName('informacao');
-    x[0].checked = true;
-
-
+    document.getElementById('professor').value = '';
 }
 
-function gerarLogin() {
-    const nome = document.getElementById('nome').value;
-    const sobrenome = document.getElementById('sobrenome').value;
-    const login = nome.replace(/ /g, '') + "." + sobrenome.replace(/ /g, '');
-    document.getElementById('login').value = login.toLowerCase();
-}
 
-function limpa_formulário_cep() {
-    document.getElementById('endereco').value = ("");
-    document.getElementById('bairro').value = ("");
-    document.getElementById('cidade').value = ("");
-    document.getElementById('estado').value = ("")
-}
-
-function meu_callback(conteudo) {
-    if (!("erro" in conteudo)) {
-        //Atualiza os campos com os valores.
-        document.getElementById('endereco').value = (conteudo.logradouro);
-        document.getElementById('bairro').value = (conteudo.bairro);
-        document.getElementById('cidade').value = (conteudo.localidade);
-        document.getElementById('estado').value = (conteudo.uf);
-    }
-    else {
-        limpa_formulário_cep();
-        alert("CEP não encontrado.");
-    }
-}
-
-function pesquisacep(valor) {
-
-    //Variável com tratamento dos dados de entrada com o uso de expressão regular
-    var cep = valor.replace(/\D/g, '');
-
-    //Verifica se valores registrados
-    if (cep != "") {
-
-        ////Variável com tratamento dos dados de entrada com o uso de expressão regular
-        var validacep = /^[0-9]{8}$/;
-
-        //Válida a entrada
-        if (validacep.test(cep)) {
-
-            //Preenche os campos com "..." enquanto consulta webservice.
-            document.getElementById('endereco').value = "...";
-            document.getElementById('bairro').value = "...";
-            document.getElementById('cidade').value = "...";
-            document.getElementById('estado').value = "...";
-
-            //Cria um elemento javascript.
-            var script = document.createElement('script');
-
-            //Sincroniza com o callback.
-            //window.alert('======>' + cep);
-            script.src = 'https://viacep.com.br/ws/' + cep + '/json/?callback=meu_callback';
-
-            //Insere script no documento e carrega o conteúdo.
-            document.body.appendChild(script);
-
-        }
-        else {
-            limpa_formulário_cep();
-            alert("Formato de CEP inválido.");
-        }
-    }
-    else {
-        //cep sem valor, limpa formulário.
-        limpa_formulário_cep();
-    }
-}
-
-/*
-  function ValidateEmail(email) {
-      if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value)) {
-          return (true)
-      }
-      alert("You have entered an invalid email address!")
-      return (false)
-  }
- 
-  function CheckPassword(senha) {
-      var passw = /^[A-Za-z]\w{7,14}$/;
-      if (senha.value.match(senha)) {
-          alert('Correct, try another...')
-          return true;
-      }
-      else {
-          alert('Wrong...!')
-          return false;
-      }
-  }*/
