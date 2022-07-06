@@ -26,12 +26,12 @@
                     <div class="col mb-2">
                         <label for="nome" class="form-label">Nome <span class="text-danger">*</span></label>
                         <input type="text" class="form-control maiusculo" id="nome" pattern="^[A-Za-z]+$"
-                            placeholder="primeiro nome - somente letras" maxlength="30" required>
+                            placeholder="primeiro nome - somente letras, sem espaços" maxlength="30" required>
                     </div>
                     <div class="col mb-2">
                         <label for="sobrenome" class="form-label">Sobrenome <span class="text-danger">*</span></label>
                         <input type="text" class="form-control maiusculo" id="sobrenome" pattern="^[A-Za-z]+$"
-                            placeholder="último nome - somente letras" maxlength="20" required>
+                            placeholder="último nome - somente letras, sem espaços" maxlength="20" required>
                     </div>
                 </div>
             </div>
@@ -127,32 +127,12 @@
 
             <div class="form-group col-sm-12">
                 <label for="termostxt">Informativo sobre Lei 13.709/2018 - LGPD</label>
-                <div class="form-control" id="termostxt" rows="5" readonly>“A Lei Geral de Proteção de Dados Pessoais
-                    (LGPDP), Lei nº 13.709/2018, é a legislação brasileira que regula as atividades de tratamento de
-                    dados pessoais e que também altera os artigos 7º e 16 do Marco Civil da Internet. O Brasil passou a
-                    fazer parte dos países que contam com uma legislação específica para proteção de dados e da
-                    privacidade dos seus cidadãos. Outros regulamentos similares à LGPD no Brasil são o Regulamento
-                    Geral sobre a Proteção de Dados (GDPR) na União Europeia, que passou a ser obrigatório em 25 de maio
-                    de 2018 e aplicável a todos os países da União Europeia (UE), e o California Consumer Privacy Act of
-                    2018 (CCPA), nos Estados Unidos da América, implementado através de uma iniciativa em âmbito
-                    estadual, na Califórnia, onde foi aprovado no dia 28 de junho de 2018 (AB 375). A legislação se
-                    fundamenta em diversos valores, como o respeito à privacidade; à autodeterminação informativa; à
-                    liberdade de expressão, de informação, comunicação e de opinião; à inviolabilidade da intimidade, da
-                    honra e da imagem; ao desenvolvimento econômico e tecnológico e a inovação; à livre iniciativa,
-                    livre concorrência e defesa do consumidor e aos direitos humanos de liberdade e dignidade das
-                    pessoas. A LGPD cria um conjunto de novos conceitos jurídicos (e.g. "dados pessoais", "dados
-                    pessoais sensíveis"), estabelece as condições nas quais os dados pessoais podem ser tratados, define
-                    um conjunto de direitos para os titulares dos dados, gera obrigações específicas para os
-                    controladores dos dados e cria uma série de procedimentos e normas para que haja maior cuidado com o
-                    tratamento de dados pessoais e compartilhamento com terceiros. A lei se aplica a toda informação
-                    relacionada a pessoa natural identificada ou que possa ser identificável e aos dados que tratem de
-                    origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a
-                    organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual,
-                    dado genético ou biométrico, sempre que os mesmos estiverem vinculados a uma pessoa natural.”
-                    Disponível em: https://pt.wikipedia.org/wili/Lei_Geral_de_Protecao_de_Dados_Pessoais </div>
+                <textarea class="form-control" id="termostxt" rows="10" disabled>“A Lei Geral de Proteção de Dados Pessoais (LGPDP), Lei nº 13.709/2018, é a legislação brasileira que regula as atividades de tratamento de dados pessoais e que também altera os artigos 7º e 16 do Marco Civil da Internet. O Brasil passou a fazer parte dos países que contam com uma legislação específica para proteção de dados e da privacidade dos seus cidadãos. Outros regulamentos similares à LGPD no Brasil são o Regulamento Geral sobre a Proteção de Dados (GDPR) na União Europeia, que passou a ser obrigatório em 25 de maio de 2018 e aplicável a todos os países da União Europeia (UE), e o California Consumer Privacy Act of 2018 (CCPA), nos Estados Unidos da América, implementado através de uma iniciativa em âmbito estadual, na Califórnia, onde foi aprovado no dia 28 de junho de 2018 (AB 375). A legislação se fundamenta em diversos valores, como o respeito à privacidade; à autodeterminação informativa; à liberdade de expressão, de informação, comunicação e de opinião; à inviolabilidade da intimidade, da honra e da imagem; ao desenvolvimento econômico e tecnológico e a inovação; à livre iniciativa, livre concorrência e defesa do consumidor e aos direitos humanos de liberdade e dignidade das pessoas. A LGPD cria um conjunto de novos conceitos jurídicos (e.g. "dados pessoais", "dados pessoais sensíveis"), estabelece as condições nas quais os dados pessoais podem ser tratados, define um conjunto de direitos para os titulares dos dados, gera obrigações específicas para os controladores dos dados e cria uma série de procedimentos e normas para que haja maior cuidado com o tratamento de dados pessoais e compartilhamento com terceiros. A lei se aplica a toda informação relacionada a pessoa natural identificada ou que possa ser identificável e aos dados que tratem de origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, sempre que os mesmos estiverem vinculados a uma pessoa natural.” 
+                Disponível em: https://pt.wikipedia.org/wili/Lei_Geral_de_Protecao_de_Dados_Pessoais
+                </textarea>
             </div>
             <div class="form-check mt-2">
-                <input type="checkbox" id="termos" required></imput>
+                <input type="checkbox" id="termos" required disabled></imput>
                 <label for="termos">Li e concordo com o informativo.</label>
                 <br /><br />
                 <input name="informacao" id="informacao-sim" type="radio" value="Sim" checked></input>

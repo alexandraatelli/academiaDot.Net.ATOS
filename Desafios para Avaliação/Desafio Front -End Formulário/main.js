@@ -1,6 +1,8 @@
 
 document.getElementById('nome').addEventListener('keyup', gerarLogin);
 document.getElementById('sobrenome').addEventListener('keyup', gerarLogin);
+document.getElementById('termostxt').addEventListener('scroll', habilitaCheckAceite);
+
 
 //gera login automaticamente com o nome e sobrenome registrados
 function gerarLogin() {
@@ -9,7 +11,6 @@ function gerarLogin() {
     const login = nome.replace(/ /g, '') + "." + sobrenome.replace(/ /g, '');
     document.getElementById('login').value = login.toLowerCase();
 }
-
 function CheckPassword(senha) {
     //alert(senha);
     if (/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!$*&@#])[0-9a-zA-Z!$*&@#]{8,}$/.test(senha)) {
@@ -101,3 +102,9 @@ function processaDocumento() {
 }
 
 
+function habilitaCheckAceite() {
+    var termosrolagem = document.getElementById('termostxt');
+    if ((termosrolagem.scrollTop + termosrolagem.offsetHeight) >= termosrolagem.scrollHeight) {
+        document.getElementById('termos').removeAttribute('disabled');
+    }
+}
