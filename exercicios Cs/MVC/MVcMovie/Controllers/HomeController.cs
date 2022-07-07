@@ -18,9 +18,32 @@ namespace MVcMovie.Controllers
             return View();
         }
 
+        public IActionResult Sobre()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Cadastrar(Pessoa p)
+        {
+           // string Nome = p.Nome;
+          //  string Cpf = p.Cpf;
+            return View("Pessoa", p);
+        }
+
+        public IActionResult Pessoa(Pessoa p)
+        {
+            return View(p);
+        }
+
+        public IActionResult Cadastrar()
+        {
+           return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

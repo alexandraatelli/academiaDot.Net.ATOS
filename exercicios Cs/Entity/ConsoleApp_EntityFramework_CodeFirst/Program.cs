@@ -1,4 +1,13 @@
 ﻿using ConsoleApp_EntityFramework_CodeFirst;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using ConsoleApp_EntityFramework_CodeFirst;
 
 using (var contexto = new ClienteContext())
 {
@@ -20,7 +29,7 @@ using (var contexto = new ClienteContext())
                 Console.Write("Digite um Email: ");
                 string email = Console.ReadLine();
 
-                Console.Write("Digite o cpf: ");
+                Console.Write("Digite o Cpf: ");
                 string cpf = Console.ReadLine();
                 contexto.Clientes.Add(new Cliente(nome, email, cpf));
                 contexto.SaveChanges();
@@ -50,7 +59,7 @@ using (var contexto = new ClienteContext())
                 }
                 else
                 {
-
+                    Console.WriteLine("Cliente não localizado por este email!!");
                 }
                 break;
             case "4":

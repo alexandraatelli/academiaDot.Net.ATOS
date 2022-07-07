@@ -11,7 +11,7 @@ build_property.RootNamespace = MVcMovie
 build_property.ProjectDir = C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\MVC\MVcMovie\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\atell\Desktop\Atos\MeusProjAtos.Net\academiaDot.Net\exercicios Cs\MVC\MVcMovie
 build_property._RazorSourceGeneratorDebug = 
 
@@ -19,12 +19,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/atell/Desktop/Atos/MeusProjAtos.Net/academiaDot.Net/exercicios Cs/MVC/MVcMovie/Views/Home/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWRhc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/atell/Desktop/Atos/MeusProjAtos.Net/academiaDot.Net/exercicios Cs/MVC/MVcMovie/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/atell/Desktop/Atos/MeusProjAtos.Net/academiaDot.Net/exercicios Cs/MVC/MVcMovie/Views/Home/Pessoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQZXNzb2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/atell/Desktop/Atos/MeusProjAtos.Net/academiaDot.Net/exercicios Cs/MVC/MVcMovie/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atell/Desktop/Atos/MeusProjAtos.Net/academiaDot.Net/exercicios Cs/MVC/MVcMovie/Views/Home/Sobre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/atell/Desktop/Atos/MeusProjAtos.Net/academiaDot.Net/exercicios Cs/MVC/MVcMovie/Views/Shared/Error.cshtml]

@@ -84,7 +84,9 @@ function processaDocumento() {
     document.getElementById('t-termos').innerHTML = document.getElementById('termos').value.replace('on', 'Sim');
     document.getElementById('t-aceite').innerHTML = document.querySelector('input[name=informacao]:checked').value
 
-    //Limpando os dados registrados no momento do submit
+    document.getElementById('formulario').reset();
+
+    /*Limpando os dados registrados no momento do submit
     document.getElementById('nome').value = '';
     document.getElementById('sobrenome').value = '';
     document.getElementById('email').value = '';
@@ -98,7 +100,7 @@ function processaDocumento() {
     document.getElementById('estado').value = '';
     document.getElementById('github').value = '';
     document.getElementById('academia').value = '';
-    document.getElementById('professor').value = '';
+    document.getElementById('professor').value = '';*/
 }
 
 
